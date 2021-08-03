@@ -6,10 +6,10 @@
 - 增加细分类别，例如单调栈，前缀树等，一道题目可能会有多个类别
 
 # 目录
+- [𐀴 Binary Search](#𐀴-Binary Search)
 - [𐀴 Linked List](#𐀴-Linked List)
     - Single Linked List
     - Double Linked List
-- [𐀴 Binary Search](#𐀴-Binary Search)
 
 ## 𐀴 Binary Search
 ###### Easy:
