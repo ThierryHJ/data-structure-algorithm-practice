@@ -13,19 +13,19 @@
 
 ## 𐀴 Binary Search
 ##### Easy
-278. https://leetcode.com/problems/first-bad-version/
-852. https://leetcode.com/problems/peak-index-in-a-mountain-array/
+- 278. https://leetcode.com/problems/first-bad-version/
+- 852. https://leetcode.com/problems/peak-index-in-a-mountain-array/
 
 ##### Medium
-34. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-74. https://leetcode.com/problems/search-a-2d-matrix/
-153. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-162. https://leetcode.com/problems/find-peak-element/
-658. https://leetcode.com/problems/find-k-closest-elements/
+- 34. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+- 74. https://leetcode.com/problems/search-a-2d-matrix/
+- 153. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+- 162. https://leetcode.com/problems/find-peak-element/
+- 658. https://leetcode.com/problems/find-k-closest-elements/
 
 ##### Hard
-4. https://leetcode.com/problems/median-of-two-sorted-arrays/
-302. https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+- 4. https://leetcode.com/problems/median-of-two-sorted-arrays/
+- 302. https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 
 ## 𐀴 Linked List
 
