@@ -10,9 +10,7 @@
 - [𐀴 Linked List](#𐀴-Linked-List)
     - Single Linked List
     - Double Linked List
-- [𐀴 链表](#𐀴-链表)
-    - 单链表
-    - 双链表
+
 ## 𐀴 Binary-Search
 ###### Easy:
 - [278. https://leetcode.com/problems/first-bad-version/]
