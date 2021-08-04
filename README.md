@@ -30,9 +30,9 @@
 
 ## 𐀴 Two-Pointers
 ###### Easy
-[88. https://leetcode.com/problems/merge-sorted-array/]
-[167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/]
-[349. https://leetcode.com/problems/intersection-of-two-arrays/]
+- [88. https://leetcode.com/problems/merge-sorted-array/]
+- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/]
+- [349. https://leetcode.com/problems/intersection-of-two-arrays/]
 
 ###### Medium:
 - [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/]
