@@ -30,14 +30,17 @@
 
 ## 𐀴 Two-Pointers
 ###### Easy
-- [88. https://leetcode.com/problems/merge-sorted-array/]
-- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/]
-- [349. https://leetcode.com/problems/intersection-of-two-arrays/]
+- [88. https://leetcode.com/problems/merge-sorted-array/] (Two Arrays Same Direction)
+- [349. https://leetcode.com/problems/intersection-of-two-arrays/] (Two Arrays Same Direction)
+- 
+- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] (One Array Opposite Direction) 
 
 ###### Medium:
-- [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/]
-- [15. https://leetcode.com/problems/3sum/]
+- [15. https://leetcode.com/problems/3sum/] (One Array Opposite Direction)
 - [16. https://leetcode.com/problems/3sum-closest/]
+
+- [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/] (One Array Same Direction)
+
 - [75. https://leetcode.com/problems/sort-colors/]
 - [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
 - [283. https://leetcode.com/problems/move-zeroes/]
@@ -49,6 +52,7 @@
 - [76. https://leetcode.com/problems/minimum-window-substring/]
 - [992. https://leetcode.com/problems/subarrays-with-k-different-integers/]
 
+## 𐀴 Linked-List
 #### Single Linked List：
 
 ###### Easy：
