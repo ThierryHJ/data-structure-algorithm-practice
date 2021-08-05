@@ -29,17 +29,26 @@
 - [302. https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/]
 
 ## 𐀴 Two-Pointers
+
+#### Two Arrays Same Direction
 ###### Easy
 - [88. https://leetcode.com/problems/merge-sorted-array/] (Two Arrays Same Direction)
 - [349. https://leetcode.com/problems/intersection-of-two-arrays/] (Two Arrays Same Direction)
-- 
-- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] (One Array Opposite Direction) 
+
+#### One Array Opposite Direction
+###### Easy
+- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] 
 
 ###### Medium:
-- [15. https://leetcode.com/problems/3sum/] (One Array Opposite Direction)
+- [15. https://leetcode.com/problems/3sum/] 
 - [16. https://leetcode.com/problems/3sum-closest/]
 
-- [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/] (One Array Same Direction)
+#### One Array Same Direction
+###### Medium:
+- [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/] 
+
+
+
 
 - [75. https://leetcode.com/problems/sort-colors/]
 - [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
