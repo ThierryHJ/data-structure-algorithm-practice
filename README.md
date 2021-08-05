@@ -32,8 +32,8 @@
 
 #### Two Arrays Same Direction
 ###### Easy
-- [88. https://leetcode.com/problems/merge-sorted-array/] (Two Arrays Same Direction)
-- [349. https://leetcode.com/problems/intersection-of-two-arrays/] (Two Arrays Same Direction)
+- [88. https://leetcode.com/problems/merge-sorted-array/]
+- [349. https://leetcode.com/problems/intersection-of-two-arrays/]
 
 #### One Array Opposite Direction
 ###### Easy
