@@ -42,6 +42,7 @@
 ###### Medium:
 - [15. https://leetcode.com/problems/3sum/] 
 - [16. https://leetcode.com/problems/3sum-closest/]
+- [75. https://leetcode.com/problems/sort-colors/]
 
 #### One Array Same Direction
 ###### Medium:
@@ -49,8 +50,8 @@
 
 
 
+- 
 
-- [75. https://leetcode.com/problems/sort-colors/]
 - [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
 - [283. https://leetcode.com/problems/move-zeroes/]
 - [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
