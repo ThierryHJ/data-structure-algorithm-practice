@@ -52,7 +52,6 @@
 
 - 
 
-- [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
 - [283. https://leetcode.com/problems/move-zeroes/]
 - [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
 - [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
@@ -74,3 +73,8 @@
 - [203. remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/)
 - [237. delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 - [876. middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
+
+
+## 𐀴 Devide-and-Conquer
+#### Quick Select：
+- [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
