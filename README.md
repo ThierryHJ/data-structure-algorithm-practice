@@ -45,6 +45,9 @@
 - [75. https://leetcode.com/problems/sort-colors/]
 
 #### One Array Same Direction
+###### Easy
+- [283. https://leetcode.com/problems/move-zeroes/]
+
 ###### Medium:
 - [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/] 
 
@@ -52,7 +55,7 @@
 
 - 
 
-- [283. https://leetcode.com/problems/move-zeroes/]
+
 - [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
 - [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
 - [560. https://leetcode.com/problems/subarray-sum-equals-k/]
