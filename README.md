@@ -52,9 +52,7 @@
 - [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/] 
 - [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
 - [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
-
--
-- [560. https://leetcode.com/problems/subarray-sum-equals-k/]
+- [560. https://leetcode.com/problems/subarray-sum-equals-k/] (optimized with prefix-sum)
 
 ###### Hard:
 - [76. https://leetcode.com/problems/minimum-window-substring/]
