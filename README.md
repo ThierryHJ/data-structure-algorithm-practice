@@ -1,7 +1,6 @@
 # data-structure-algorithm-practice
 分类 Leetcode 高频题 2021 版
 
-- 题目按照面试频率降序排列
 - 增加难度分类，适合从简单开始学习
 - 增加细分类别，例如单调栈，前缀树等
 
