@@ -71,6 +71,27 @@
 - [237. delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 - [876. middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
 
+###### Medium
+- [19. https://leetcode.com/problems/remove-nth-node-from-end-of-list/]
+- [61. https://leetcode-cn.com/problems/rotate-list/]
+- [148. https://leetcode.com/problems/sort-list/]
+
+#### Double Linked List：
+
+###### Easy
+
+- [21. merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+- [160. intersection-of-two-linked-lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+
+###### Medium
+
+- [2. add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers/)
+- [445. add-two-numbers-ii](https://leetcode-cn.com/problems/add-two-numbers-ii/)
+- [1669. merge-in-between-linked-lists](https://leetcode-cn.com/problems/merge-in-between-linked-lists/)
+
+###### Hard
+
+- [23. merge-k-sorted-lists](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 
 ## 𐀴 Devide-and-Conquer
 #### Quick Select：
