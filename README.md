@@ -7,9 +7,13 @@
 # 目录
 - [𐀴 Binary Search](#𐀴-Binary-Search)
 - [𐀴 Two Pointers](#𐀴-Two-Pointers)
+    - Two Arrays Same Direction
+    - One Array Opposite Direction
+    - One Array Same Direction
 - [𐀴 Linked List](#𐀴-Linked-List)
     - Single Linked List
-    - Double Linked List
+    - Two Linked List
+- [𐀴 Stack](#𐀴-Stack)
 
 ## 𐀴 Binary-Search
 ###### Easy:
@@ -96,12 +100,18 @@
 #### Basic:
 ###### Easy
 - [20.https://leetcode.com/problems/valid-parentheses]
+- [1047. https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
 
 ###### Medium
 - [735. https://leetcode.com/problems/asteroid-collision/]
+- [1190. https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
+- [394. https://leetcode-cn.com/problems/decode-string/]
+- [456. (https://leetcode-cn.com/problems/132-pattern/]
+- [227. https://leetcode-cn.com/problems/basic-calculator-ii/]
 
 ###### Hard
-
+- [224. https://leetcode-cn.com/problems/basic-calculator/]
+- [726. https://leetcode-cn.com/problems/number-of-atoms/]
 
 #### Monotone Stack:
 ###### Easy
