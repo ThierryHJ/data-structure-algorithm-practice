@@ -79,18 +79,18 @@
 
 ###### Easy
 
-- [21. merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-- [160. intersection-of-two-linked-lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+- [21. merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [160. intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 ###### Medium
 
-- [2. add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers/)
-- [445. add-two-numbers-ii](https://leetcode-cn.com/problems/add-two-numbers-ii/)
-- [1669. merge-in-between-linked-lists](https://leetcode-cn.com/problems/merge-in-between-linked-lists/)
+- [2. add-two-numbers](https://leetcode.com/problems/add-two-numbers/)
+- [445. add-two-numbers-ii](https://leetcode.com/problems/add-two-numbers-ii/)
+- [1669. merge-in-between-linked-lists](https://leetcode.com/problems/merge-in-between-linked-lists/)
 
 ###### Hard
 
-- [23. merge-k-sorted-lists](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+- [23. merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ## 𐀴 Devide-and-Conquer
 #### Quick Select：
