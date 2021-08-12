@@ -92,6 +92,39 @@
 
 - [23. merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
+## 𐀴 Stack
+#### Basic:
+###### Easy
+- [20.https://leetcode.com/problems/valid-parentheses]
+
+###### Medium
+- [735. https://leetcode.com/problems/asteroid-collision/]
+
+###### Hard
+
+
+#### Monotone Stack:
+###### Easy
+
+- [496. next-greater-element-i](https://leetcode.com/problems/next-greater-element-i/)
+
+###### Medium
+
+- [739. daily-temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [402. remove-k-digits](https://leetcode.com/problems/remove-k-digits/)
+- [316. remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters/)
+- [1124. longest-well-performing-interval](https://leetcode.com/problems/longest-well-performing-interval/)
+
+###### Hard
+
+- [42. trapping-rain-water/](https://leetcode.com/problems/trapping-rain-water/)
+- [84. largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [85. maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/)
+- [321. create-maximum-number](https://leetcode.com/problems/create-maximum-number/)
+
+
+
+
 ## 𐀴 Devide-and-Conquer
 #### Quick Select：
 - [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
