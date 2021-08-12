@@ -75,7 +75,7 @@
 - [61. https://leetcode-cn.com/problems/rotate-list/]
 - [148. https://leetcode.com/problems/sort-list/]
 
-#### Double Linked List：
+#### Two Linked List：
 
 ###### Easy
 
