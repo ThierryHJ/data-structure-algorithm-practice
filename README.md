@@ -104,14 +104,14 @@
 
 ###### Medium
 - [735. https://leetcode.com/problems/asteroid-collision/]
-- [1190. https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
-- [394. https://leetcode-cn.com/problems/decode-string/]
-- [456. (https://leetcode-cn.com/problems/132-pattern/]
-- [227. https://leetcode-cn.com/problems/basic-calculator-ii/]
+- [1190. https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
+- [394. https://leetcode.com/problems/decode-string/]
+- [456. (https://leetcode.com/problems/132-pattern/]
+- [227. https://leetcode.com/problems/basic-calculator-ii/]
 
 ###### Hard
-- [224. https://leetcode-cn.com/problems/basic-calculator/]
-- [726. https://leetcode-cn.com/problems/number-of-atoms/]
+- [224. https://leetcode.com/problems/basic-calculator/]
+- [726. https://leetcode.com/problems/number-of-atoms/]
 
 #### Monotone Stack:
 ###### Easy
