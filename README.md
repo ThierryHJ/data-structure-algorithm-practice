@@ -106,7 +106,6 @@
 - [735. https://leetcode.com/problems/asteroid-collision/]
 - [1190. https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
 - [394. https://leetcode.com/problems/decode-string/]
-- [456. (https://leetcode.com/problems/132-pattern/]
 - [227. https://leetcode.com/problems/basic-calculator-ii/]
 
 ###### Hard
@@ -122,6 +121,7 @@
 
 - [739. daily-temperatures](https://leetcode.com/problems/daily-temperatures/)
 - [402. remove-k-digits](https://leetcode.com/problems/remove-k-digits/)
+- [456. (https://leetcode.com/problems/132-pattern/]
 - [316. remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters/)
 - [1124. longest-well-performing-interval](https://leetcode.com/problems/longest-well-performing-interval/)
 
