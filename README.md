@@ -121,7 +121,7 @@
 
 - [739. daily-temperatures](https://leetcode.com/problems/daily-temperatures/)
 - [402. remove-k-digits](https://leetcode.com/problems/remove-k-digits/)
-- [456. (https://leetcode.com/problems/132-pattern/]
+- [456. 132-pattern] (https://leetcode.com/problems/132-pattern/)
 - [316. remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters/)
 - [1124. longest-well-performing-interval](https://leetcode.com/problems/longest-well-performing-interval/)
 
