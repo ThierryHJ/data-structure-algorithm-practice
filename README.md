@@ -135,6 +135,9 @@
 
 
 
-## 𐀴 Devide-and-Conquer
+## 𐀴 Sorting
+#### Quick Sort, Merge Sort, Bubble Sort, etc:
+- [https://leetcode.com/problems/sort-an-array/]
+
 #### Quick Select：
 - [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
