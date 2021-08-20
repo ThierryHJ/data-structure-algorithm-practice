@@ -14,7 +14,14 @@
     - Single Linked List
     - Two Linked List
 - [𐀴 Stack](#𐀴-Stack)
-- 
+    - Basic
+    - Monotone
+- [𐀴 Sorting](#𐀴-Sorting)
+- [𐀴 Tree](#𐀴-Tree)
+    - Traverse
+    - Path | Depth | Inverse | Others with Devide and Conquer
+    - Binary Search Tree
+    - Trie
 
 ## 𐀴 Binary-Search
 ###### Easy:
@@ -132,9 +139,6 @@
 - [84. largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [85. maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - [321. create-maximum-number](https://leetcode.com/problems/create-maximum-number/)
-
-
-
 
 ## 𐀴 Sorting
 #### Quick Sort, Merge Sort, Bubble Sort, etc:
