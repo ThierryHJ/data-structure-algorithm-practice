@@ -188,3 +188,42 @@
 - [116. populating-next-right-pointers-in-each-node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [515. find-largest-value-in-each-tree-row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)
 
+###### Hard
+
+- [124. binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- [297. serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+
+
+#### Binary Search Tree
+
+###### Easy
+
+- [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [270. closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value/)
+
+###### Medium
+
+- [98. validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [96. unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees/)
+- [95. unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+- [173. binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+- [230. kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+- [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
+
+#### Trie
+
+###### Easy
+
+- [720. longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
+
+###### Medium
+
+- [208. implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [692. top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
+- [421. maximum-xor-of-two-numbers-in-an-array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+
+###### Hard
+
+- [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
+
+
