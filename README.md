@@ -22,6 +22,7 @@
     - Path | Depth | Inverse | Others with Devide and Conquer
     - Binary Search Tree
     - Trie
+- [𐀴 BFS](#𐀴-BFS)
 
 ## 𐀴 Binary-Search
 ###### Easy:
