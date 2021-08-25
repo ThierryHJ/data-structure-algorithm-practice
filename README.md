@@ -243,4 +243,28 @@
 
 - [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
 
+### BFS
 
+###### Easy
+
+- [690. employee-importance](https://leetcode.com/problems/employee-importance/)
+
+###### Medium
+
+- [279. perfect-squares](https://leetcode.com/problems/perfect-squares/)
+- [130. surrounded-regions](https://leetcode.com/problems/surrounded-regions/)
+- [1319. number-of-operations-to-make-network-connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+- [934. shortest-bridge](https://leetcode.com/problems/shortest-bridge/)
+- [785. is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite/)
+- [994. rotting-oranges](https://leetcode.com/problems/rotting-oranges/)
+- [752. open-the-lock](https://leetcode.com/problems/open-the-lock/)
+- [1162. as-far-from-land-as-possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
+- [529. minesweeper](https://leetcode.com/problems/minesweeper/)
+
+###### Hard
+
+- [815. bus-routes](https://leetcode.com/problems/bus-routes/)
+- [127. word-ladder](https://leetcode.com/problems/word-ladder/)
+- [1293. shortest-path-in-a-grid-with-obstacles-elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+- [773. sliding-puzzle](https://leetcode.com/problems/sliding-puzzle/)
+- [827. making-a-large-island](https://leetcode.com/problems/making-a-large-island/)
