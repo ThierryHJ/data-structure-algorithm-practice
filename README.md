@@ -23,7 +23,8 @@
     - Binary Search Tree
     - Trie
 - [𐀴 BFS](#𐀴-BFS)
-
+    - Topological Sort 
+    
 ## 𐀴 Binary-Search
 ###### Easy:
 - [278. https://leetcode.com/problems/first-bad-version/]
@@ -260,6 +261,7 @@
 - [994. rotting-oranges](https://leetcode.com/problems/rotting-oranges/)
 - [752. open-the-lock](https://leetcode.com/problems/open-the-lock/)
 - [1162. as-far-from-land-as-possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
+- [1197. **minimum-knight-moves**](https://leetcode.com/problems/minimum-knight-moves/)
 - [529. minesweeper](https://leetcode.com/problems/minesweeper/)
 
 ###### Hard
@@ -269,3 +271,5 @@
 - [1293. shortest-path-in-a-grid-with-obstacles-elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
 - [773. sliding-puzzle](https://leetcode.com/problems/sliding-puzzle/)
 - [827. making-a-large-island](https://leetcode.com/problems/making-a-large-island/)
+
+#### Topological Sort
