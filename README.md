@@ -261,9 +261,10 @@
 - [994. rotting-oranges](https://leetcode.com/problems/rotting-oranges/)
 - [752. open-the-lock](https://leetcode.com/problems/open-the-lock/)
 - [1162. as-far-from-land-as-possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
-- [1197. **minimum-knight-moves**](https://leetcode.com/problems/minimum-knight-moves/)
+- [**1197. minimum-knight-moves**](https://leetcode.com/problems/minimum-knight-moves/)
 - [529. minesweeper](https://leetcode.com/problems/minesweeper/)
 - [**547. number-of-provinces**](https://leetcode.com/problems/number-of-provinces/)
+- [**490. the-maze**](https://leetcode.com/problems/the-maze/)
 
 ###### Hard
 
