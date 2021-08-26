@@ -263,6 +263,7 @@
 - [1162. as-far-from-land-as-possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
 - [1197. **minimum-knight-moves**](https://leetcode.com/problems/minimum-knight-moves/)
 - [529. minesweeper](https://leetcode.com/problems/minesweeper/)
+- [**547. number-of-provinces**](https://leetcode.com/problems/number-of-provinces/)
 
 ###### Hard
 
