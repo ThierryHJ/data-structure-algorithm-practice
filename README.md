@@ -25,7 +25,7 @@
 - [𐀴 BFS](#𐀴-BFS)
     - Topological Sort 
 
-- [𐀴 Dynamic Programming](#𐀴-Dynamic Programming)
+- [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
 ## 𐀴 Binary-Search
 ###### Easy:
@@ -281,7 +281,7 @@
 
 
 
-## 𐀴 Dynamic Programming
+## 𐀴 Dynamic-Programming
 
 #### 1D坐标
 ###### Easy
