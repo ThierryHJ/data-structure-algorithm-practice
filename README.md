@@ -24,6 +24,8 @@
     - Trie
 - [𐀴 BFS](#𐀴-BFS)
     - Topological Sort 
+
+- [𐀴 Dynamic Programming](#𐀴-Dynamic Programming)
     
 ## 𐀴 Binary-Search
 ###### Easy:
@@ -253,7 +255,6 @@
 
 ###### Medium
 - [**200. number-of-islands**](https://leetcode.com/problems/number-of-islands/)
-- [279. perfect-squares](https://leetcode.com/problems/perfect-squares/)
 - [130. surrounded-regions](https://leetcode.com/problems/surrounded-regions/)
 - [1319. number-of-operations-to-make-network-connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 - [934. shortest-bridge](https://leetcode.com/problems/shortest-bridge/)
@@ -275,3 +276,15 @@
 - [827. making-a-large-island](https://leetcode.com/problems/making-a-large-island/)
 
 #### Topological Sort
+
+
+
+
+
+## 𐀴 Dynamic Programming
+
+#### 1D坐标
+###### Easy
+
+###### Medium
+- [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
