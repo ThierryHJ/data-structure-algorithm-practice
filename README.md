@@ -255,9 +255,9 @@
 
 ###### Medium
 - [**200. number-of-islands**](https://leetcode.com/problems/number-of-islands/)
-- [130. surrounded-regions](https://leetcode.com/problems/surrounded-regions/)
+- [**130. surrounded-regions**](https://leetcode.com/problems/surrounded-regions/)
 - [1319. number-of-operations-to-make-network-connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
-- [934. shortest-bridge](https://leetcode.com/problems/shortest-bridge/)
+- [**934. shortest-bridge**](https://leetcode.com/problems/shortest-bridge/)
 - [785. is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite/)
 - [994. rotting-oranges](https://leetcode.com/problems/rotting-oranges/)
 - [752. open-the-lock](https://leetcode.com/problems/open-the-lock/)
