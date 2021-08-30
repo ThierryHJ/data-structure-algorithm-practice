@@ -278,8 +278,8 @@
 #### Topological Sort
 
 ###### Medium
-- [207. word-ladder](https://leetcode.com/problems/course-schedule/)
-- [210. word-ladder](https://leetcode.com/problems/course-schedule-ii/)
+- [**207. course-schedule**](https://leetcode.com/problems/course-schedule/)
+- [210. course-schedule-ii](https://leetcode.com/problems/course-schedule-ii/)
 - [310.minimum-height-trees](https://leetcode.com/problems/minimum-height-trees/)
 
 ###### Hard
