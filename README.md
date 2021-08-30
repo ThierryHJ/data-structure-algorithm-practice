@@ -277,8 +277,13 @@
 
 #### Topological Sort
 
+###### Medium
+- [207. word-ladder](https://leetcode.com/problems/course-schedule/)
+- [210. word-ladder](https://leetcode.com/problems/course-schedule-ii/)
+- [310.minimum-height-trees](https://leetcode.com/problems/minimum-height-trees/)
 
-
+###### Hard
+- [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
 
 ## 𐀴 Dynamic-Programming
