@@ -280,11 +280,33 @@
 ###### Medium
 - [**207. course-schedule**](https://leetcode.com/problems/course-schedule/)
 - [210. course-schedule-ii](https://leetcode.com/problems/course-schedule-ii/)
-- [310.minimum-height-trees](https://leetcode.com/problems/minimum-height-trees/)
+- [**310.minimum-height-trees**](https://leetcode.com/problems/minimum-height-trees/)
 
 ###### Hard
 - [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
+## 𐀴 DFS/Backtracking
+###### Medium
+
+- [46. permutations](https://leetcode.com/problems/permutations/)
+- [22. generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [93. restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses/)
+- [78. subsets](https://leetcode.com/problems/subsets/)
+- [17. letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [79. word-search](https://leetcode.com/problems/word-search/)
+- [90. subsets-ii](https://leetcode.com/problems/subsets-ii/)
+- [39. combination-sum](https://leetcode.com/problems/combination-sum/)
+- [77. combinations](https://leetcode.com/problems/combinations/)
+- [40. combination-sum-ii](https://leetcode.com/problems/combination-sum-ii/)
+- [47. permutations-ii](https://leetcode.com/problems/permutations-ii/)
+- [842. split-array-into-fibonacci-sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)
+
+###### Hard
+
+- [51. n-queens](https://leetcode.com/problems/n-queens/)
+- [37. sudoku-solver](https://leetcode.com/problems/sudoku-solver/)
+- [126. word-ladder-ii](https://leetcode.com/problems/word-ladder-ii/)
+- [1659. maximize-grid-happiness](https://leetcode.com/problems/maximize-grid-happiness/)
 
 ## 𐀴 Dynamic-Programming
 
