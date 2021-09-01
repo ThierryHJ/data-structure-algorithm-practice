@@ -292,21 +292,25 @@
 
 - [46. permutations](https://leetcode.com/problems/permutations/)
 - [22. generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
-- [93. restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses/)
-- [78. subsets](https://leetcode.com/problems/subsets/)
-- [17. letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [**93. restore-ip-addresses**](https://leetcode.com/problems/restore-ip-addresses/)
+- [**78. subsets**](https://leetcode.com/problems/subsets/)
+- [**17. letter-combinations-of-a-phone-number**](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [79. word-search](https://leetcode.com/problems/word-search/)
 - [90. subsets-ii](https://leetcode.com/problems/subsets-ii/)
-- [39. combination-sum](https://leetcode.com/problems/combination-sum/)
-- [77. combinations](https://leetcode.com/problems/combinations/)
-- [40. combination-sum-ii](https://leetcode.com/problems/combination-sum-ii/)
+- [**39. combination-sum**](https://leetcode.com/problems/combination-sum/)
+- [**77. combinations**](https://leetcode.com/problems/combinations/)
+- [**40. combination-sum-ii**](https://leetcode.com/problems/combination-sum-ii/)
+- [31. next-permutation](https://leetcode.com/problems/next-permutation/)
 - [47. permutations-ii](https://leetcode.com/problems/permutations-ii/)
 - [842. split-array-into-fibonacci-sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)
 
 ###### Hard
 
 - [51. n-queens](https://leetcode.com/problems/n-queens/)
-- [37. sudoku-solver](https://leetcode.com/problems/sudoku-solver/)
+- [**37. sudoku-solver**](https://leetcode.com/problems/sudoku-solver/)
+- [**word-pattern-ii**](https://leetcode.com/problems/word-pattern-ii/)
+- [**remove-invalid-parentheses**](https://leetcode.com/problems/remove-invalid-parentheses/)
+- [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
 - [126. word-ladder-ii](https://leetcode.com/problems/word-ladder-ii/)
 - [1659. maximize-grid-happiness](https://leetcode.com/problems/maximize-grid-happiness/)
 
