@@ -25,7 +25,7 @@
 - [𐀴 BFS](#𐀴-BFS)
     - Topological Sort 
 
-- [𐀴 DFS/Backtracking](#𐀴-DFS/Backtracking)
+- [𐀴 DFS/Backtracking](#𐀴-DFS-Backtracking)
  
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
@@ -287,7 +287,7 @@
 ###### Hard
 - [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
-## 𐀴 DFS/Backtracking
+## 𐀴 DFS-Backtracking
 ###### Medium
 
 - [46. permutations](https://leetcode.com/problems/permutations/)
