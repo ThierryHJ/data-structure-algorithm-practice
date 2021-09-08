@@ -306,11 +306,11 @@
 
 ###### Hard
 
-- [51. n-queens](https://leetcode.com/problems/n-queens/)
+- [**51. n-queens**](https://leetcode.com/problems/n-queens/)
 - [**37. sudoku-solver**](https://leetcode.com/problems/sudoku-solver/)
 - [**word-pattern-ii**](https://leetcode.com/problems/word-pattern-ii/)
 - [**remove-invalid-parentheses**](https://leetcode.com/problems/remove-invalid-parentheses/)
-- [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
+- [**212. word-search-ii**](https://leetcode.com/problems/word-search-ii/)
 - [126. word-ladder-ii](https://leetcode.com/problems/word-ladder-ii/)
 - [1659. maximize-grid-happiness](https://leetcode.com/problems/maximize-grid-happiness/)
 
