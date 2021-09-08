@@ -290,8 +290,8 @@
 ## 𐀴 DFS-Backtracking
 ###### Medium
 
-- [46. permutations](https://leetcode.com/problems/permutations/)
-- [22. generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [**46. permutations**](https://leetcode.com/problems/permutations/)
+- [**22. generate-parentheses**](https://leetcode.com/problems/generate-parentheses/)
 - [**93. restore-ip-addresses**](https://leetcode.com/problems/restore-ip-addresses/)
 - [**78. subsets**](https://leetcode.com/problems/subsets/)
 - [**17. letter-combinations-of-a-phone-number**](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
