@@ -315,23 +315,23 @@
 
 ## 𐀴 Math
 
-##### 简单
+##### Easy
 
-- [204. 计数质数](https://leetcode-cn.com/problems/count-primes/)
-- [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)
-- [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
-- [202. 快乐数](https://leetcode-cn.com/problems/happy-number/)
-- [1232. 缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)
+- [204. count-primes](https://leetcode.com/problems/count-primes/)
+- [628. maximum-product-of-three-numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)
+- [976. largest-perimeter-triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
+- [202. happy-number](https://leetcode.com/problems/happy-number/)
+- [1232. check-if-it-is-a-straight-line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
 
-###### 中等
+###### Medium
 
-- [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers/)
-- [343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
-- [166. 分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
+- [29. divide-two-integers](https://leetcode.com/problems/divide-two-integers/)
+- [343. integer-break](https://leetcode.com/problems/integer-break/)
+- [166. fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
 
-###### 困难
+###### Hard
 
-- [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
+- [149. max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line/)
 
 
 ## 𐀴 极大极小化
