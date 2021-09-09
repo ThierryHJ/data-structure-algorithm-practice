@@ -24,9 +24,8 @@
     - Trie
 - [𐀴 BFS](#𐀴-BFS)
     - Topological Sort 
-
 - [𐀴 DFS/Backtracking](#𐀴-DFS-Backtracking)
- 
+- [𐀴 Math](#𐀴-Math)
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
 ## 𐀴 Binary-Search
@@ -313,6 +312,59 @@
 - [**212. word-search-ii**](https://leetcode.com/problems/word-search-ii/)
 - [126. word-ladder-ii](https://leetcode.com/problems/word-ladder-ii/)
 - [1659. maximize-grid-happiness](https://leetcode.com/problems/maximize-grid-happiness/)
+
+## 𐀴 Math
+
+##### 简单
+
+- [204. 计数质数](https://leetcode-cn.com/problems/count-primes/)
+- [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)
+- [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
+- [202. 快乐数](https://leetcode-cn.com/problems/happy-number/)
+- [1232. 缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)
+
+###### 中等
+
+- [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers/)
+- [343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
+- [166. 分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
+
+###### 困难
+
+- [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
+
+
+## 𐀴 极大极小化
+
+###### 简单
+
+- [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game/)
+
+###### 中等
+
+- [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)
+- [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)
+- [464. 我能赢吗](https://leetcode-cn.com/problems/can-i-win/)
+- [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/)
+
+## 𐀴 几何
+
+###### 简单
+
+- [1232. 缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)
+- [1266. 访问所有点的最小时间](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)
+- [892. 三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/)
+
+###### 中等
+
+- [1401. 圆和矩形是否有重叠](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/)
+- [963. 最小面积矩形 II](https://leetcode-cn.com/problems/minimum-area-rectangle-ii/)
+
+###### 困难
+
+- [587. 安装栅栏](https://leetcode-cn.com/problems/erect-the-fence/)
+- [1515. 服务中心的最佳位置](https://leetcode-cn.com/problems/best-position-for-a-service-centre/)
+
 
 ## 𐀴 Dynamic-Programming
 
