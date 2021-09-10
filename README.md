@@ -25,7 +25,7 @@
 - [𐀴 BFS](#𐀴-BFS)
     - Topological Sort 
 - [𐀴 DFS/Backtracking](#𐀴-DFS-Backtracking)
-- [𐀴 Math](#𐀴-Mat
+- [𐀴 Math](#𐀴-Math)
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
 ## 𐀴 Binary-Search
