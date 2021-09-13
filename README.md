@@ -317,16 +317,16 @@
 
 ##### Easy
 
-- [204. count-primes](https://leetcode.com/problems/count-primes/)
-- [628. maximum-product-of-three-numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)
+- [**204. count-primes**](https://leetcode.com/problems/count-primes/)
+- [**628. maximum-product-of-three-numbers**](https://leetcode.com/problems/maximum-product-of-three-numbers/)
 - [976. largest-perimeter-triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
-- [202. happy-number](https://leetcode.com/problems/happy-number/)
-- [1232. check-if-it-is-a-straight-line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
+- [**202. happy-number**](https://leetcode.com/problems/happy-number/)
+- [**1232. check-if-it-is-a-straight-line**](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
 
 ###### Medium
 
 - [29. divide-two-integers](https://leetcode.com/problems/divide-two-integers/)
-- [343. integer-break](https://leetcode.com/problems/integer-break/)
+- [**343. integer-break**](https://leetcode.com/problems/integer-break/)
 - [166. fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
 
 ###### Hard
