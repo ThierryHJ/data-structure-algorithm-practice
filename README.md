@@ -334,20 +334,14 @@
 - [149. max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line/)
 
 
-## 𐀴 极大极小化
-
-###### Easy
-
-- [292. nim-game](https://leetcode.com/problems/nim-game/)
+### Randomized
 
 ###### Medium
 
-- [375. guess-number-higher-or-lower-ii II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)
-- [486. predict-the-winner](https://leetcode.com/problems/predict-the-winner/)
-- [464. can-i-win](https://leetcode.com/problems/can-i-win/)
-- [877. stone-game](https://leetcode.com/problems/stone-game/)
+- [528. random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight/)
+- [470. implement-rand10-using-rand7](https://leetcode.com/problems/implement-rand10-using-rand7/)
 
-## 𐀴 Geometry
+### Geometry
 
 ###### Easy
 
