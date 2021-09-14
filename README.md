@@ -364,8 +364,8 @@
 
 #### 坐标
 ###### Easy
--[**climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
--[**maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
+- [**climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
+- [**maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
 
 ###### Medium
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)
