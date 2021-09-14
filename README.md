@@ -364,6 +364,8 @@
 
 #### 坐标
 ###### Easy
+-[**climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
+-[**maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
 
 ###### Medium
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)
@@ -379,8 +381,6 @@
 
 ###### 简单
 
-- [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
-- [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 - [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
