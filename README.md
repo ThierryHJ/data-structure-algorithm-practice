@@ -362,8 +362,41 @@
 
 ## 𐀴 Dynamic-Programming
 
-#### 1D坐标
+#### 坐标
 ###### Easy
 
 ###### Medium
+- [**120. Triangle**](https://leetcode.com/problems/triangle/)
 - [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
+- [count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+- [300. longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+- [368. largest-divisible-subset] (https://leetcode.com/problems/largest-divisible-subset/)
+
+###### Hard
+- [354. russian-doll-envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/)
+
+
+
+###### 简单
+
+- [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+- [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+- [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+- [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
+
+###### 中等
+
+- [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/)
+- [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+- [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
+- [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
+- [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+- [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+- [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
+- [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
+
+###### 困难
+
+- [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+- [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)
+- [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
