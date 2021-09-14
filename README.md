@@ -370,7 +370,7 @@
 - [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
 - [count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 - [300. longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
-- [368. largest-divisible-subset] (https://leetcode.com/problems/largest-divisible-subset/)
+- [368. largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset/)
 
 ###### Hard
 - [354. russian-doll-envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/)
