@@ -366,6 +366,8 @@
 ###### Easy
 - [**70.climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
 - [**53.maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
+- [**121. best-time-to-buy-and-sell-stock**](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+- [**746.min-cost-climbing-stairs**](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
 ###### Medium
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)
@@ -379,10 +381,6 @@
 
 
 
-###### 简单
-
-- [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
-- [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
 ###### 中等
 
