@@ -362,7 +362,7 @@
 
 ## 𐀴 Dynamic-Programming
 
-#### 坐标
+#### 坐标 (Coordinate)
 ###### Easy
 - [**70.climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
 - [**53.maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
@@ -375,26 +375,22 @@
 - [count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 - [300. longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 - [368. largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset/)
+- [152. maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- [279. perfect-squares](https://leetcode.com/problems/perfect-squares/)
 
 ###### Hard
 - [354. russian-doll-envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/)
+- [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+
+## 前缀 - 匹配 & 划分 (partition)
+###### Medium
+- [139. word-break](https://leetcode.com/problems/word-break/)
+- [91. decode-ways](https://leetcode.com/problems/decode-ways/)
+
+## 背包 (Knapsack)
+- [322. coin-change](https://leetcode.com/problems/coin-change/)
 
 
-
-
-###### 中等
-
-- [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/)
-- [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
-- [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
-- [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
-- [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
-- [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
-- [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
-- [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
 ###### 困难
-
-- [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
-- [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)
-- [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
+- [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
