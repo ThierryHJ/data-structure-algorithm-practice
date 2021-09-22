@@ -372,6 +372,7 @@
 ###### Medium
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)
 - [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
+- [**198. house-robber**](https://leetcode.com/problems/house-robber/)
 - [count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 - [300. longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 - [368. largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset/)
