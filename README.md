@@ -373,7 +373,7 @@
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)
 - [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
 - [**198. house-robber**](https://leetcode.com/problems/house-robber/)
-- [count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+- [1277. count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 - [**300. longest-increasing-subsequence**](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [368. largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset/)
 - [152. maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/)
