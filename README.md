@@ -374,13 +374,13 @@
 - [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
 - [**198. house-robber**](https://leetcode.com/problems/house-robber/)
 - [count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
-- [300. longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+- [300. longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [368. largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset/)
 - [152. maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [279. perfect-squares](https://leetcode.com/problems/perfect-squares/)
 
 ###### Hard
-- [354. russian-doll-envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/)
+- [354. russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 
 ## 前缀 - 匹配 & 划分 (partition)
