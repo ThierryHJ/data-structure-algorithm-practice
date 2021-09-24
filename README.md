@@ -383,13 +383,32 @@
 - [354. russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 
-## 前缀 - 匹配 & 划分 (partition)
-###### Medium
+## 前缀 - 匹配 (Matching)
+dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个字符的状态
+
+- [72. edit-distance](https://leetcode.com/problems/edit-distance/)
+- [1143. longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [44. wildcard-matching] (https://leetcode.com/problems/wildcard-matching/)
+
+## 前缀 - 划分 (partition)
+ 指定划分部分：dp[i][j]表示前i个字符划分为j个部分的最优值
+ 未指定划分部分： dp[i]表示前i个字符划分为若干个部分的最优值
+
 - [**139. word-break**](https://leetcode.com/problems/word-break/)
 - [**91. decode-ways**](https://leetcode.com/problems/decode-ways/)
 
 ## 背包 (Knapsack)
+###### Unbounded
+- [rod-cutting-problem] (https://www.jiuzhang.com/problem/cutting-a-rod/)
 - [322. coin-change](https://leetcode.com/problems/coin-change/)
+- [518. coin-change2](https://leetcode.com/problems/coin-change-2/)
+
+###### 0-1
+- [knapsack](https://www.lintcode.com/problem/92/description)
+- [494.target-sum](https://leetcode.com/problems/target-sum/)
+- [416. partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [474. ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes/)
+- [](https://leetcode.com/problems/last-stone-weight-ii/)
 
 
 
