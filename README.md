@@ -399,9 +399,10 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 
 ## 背包 (Knapsack)
 ###### Unbounded
-- [rod-cutting-problem] (https://www.jiuzhang.com/problem/cutting-a-rod/)
+- [rod-cutting-problem](https://www.jiuzhang.com/problem/cutting-a-rod/)
 - [322. coin-change](https://leetcode.com/problems/coin-change/)
 - [518. coin-change2](https://leetcode.com/problems/coin-change-2/)
+- [minimum-cost-for-tickets](https://leetcode.com/problems/minimum-cost-for-tickets/solution/)
 
 ###### 0-1
 - [knapsack](https://www.lintcode.com/problem/92/description)
@@ -409,8 +410,6 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 - [416. partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [474. ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 - [](https://leetcode.com/problems/last-stone-weight-ii/)
-
-
 
 ###### 困难
 - [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
