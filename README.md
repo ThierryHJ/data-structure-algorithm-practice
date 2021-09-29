@@ -30,7 +30,7 @@
     
 ## 𐀴 Binary-Search
 ###### Easy:
-- [278. https://leetcode.com/problems/first-bad-version/]
+- [**278. https://leetcode.com/problems/first-bad-version/**]
 - [852. https://leetcode.com/problems/peak-index-in-a-mountain-array/]
 
 ###### Medium:
@@ -403,13 +403,14 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 - [**322. coin-change**](https://leetcode.com/problems/coin-change/)
 - [518. coin-change2](https://leetcode.com/problems/coin-change-2/)
 - [**983. minimum-cost-for-tickets**](https://leetcode.com/problems/minimum-cost-for-tickets/solution/)
+- [1235.maximum-profit-in-job-scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
 ###### 0-1
 - [knapsack](https://www.lintcode.com/problem/92/description)
-- [494.target-sum](https://leetcode.com/problems/target-sum/)
+- [**494.target-sum**](https://leetcode.com/problems/target-sum/)
 - [416. partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [474. ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes/)
-- [](https://leetcode.com/problems/last-stone-weight-ii/)
+- [1049. last-stone-weight-ii](https://leetcode.com/problems/last-stone-weight-ii/)
 
 ###### 困难
 - [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
