@@ -388,7 +388,7 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 
 - [72. edit-distance](https://leetcode.com/problems/edit-distance/)
 - [1143. longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [44. wildcard-matching] (https://leetcode.com/problems/wildcard-matching/)
+- [44. wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
 
 ## 前缀 - 划分 (partition)
  指定划分部分：dp[i][j]表示前i个字符划分为j个部分的最优值
@@ -406,9 +406,9 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 - [1235.maximum-profit-in-job-scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
 ###### 0-1
-- [knapsack](https://www.lintcode.com/problem/92/description)
+- [**knapsack**](https://www.lintcode.com/problem/92/description)
 - [**494.target-sum**](https://leetcode.com/problems/target-sum/)
-- [416. partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [**416. partition-equal-subset-sum**](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [474. ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 - [1049. last-stone-weight-ii](https://leetcode.com/problems/last-stone-weight-ii/)
 
