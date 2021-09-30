@@ -339,7 +339,7 @@
 ###### Medium
 
 - [528. random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight/)
-- [470. implement-rand10-using-rand7](https://leetcode.com/problems/implement-rand10-using-rand7/)
+- [**470. implement-rand10-using-rand7**](https://leetcode.com/problems/implement-rand10-using-rand7/)
 
 ### Geometry
 
