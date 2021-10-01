@@ -382,6 +382,7 @@
 ###### Hard
 - [354. russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+- [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 
 ## 前缀 - 匹配 (Matching)
 dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个字符的状态
@@ -412,5 +413,3 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 - [474. ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 - [1049. last-stone-weight-ii](https://leetcode.com/problems/last-stone-weight-ii/)
 
-###### 困难
-- [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
