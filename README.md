@@ -388,7 +388,7 @@
 dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个字符的状态
 
 - [72. edit-distance](https://leetcode.com/problems/edit-distance/)
-- [1143. longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [**1143. longest-common-subsequence**](https://leetcode.com/problems/longest-common-subsequence/)
 - [44. wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
 
 ## 前缀 - 划分 (partition)
