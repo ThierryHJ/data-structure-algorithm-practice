@@ -359,6 +359,24 @@
 - [587. erect-the-fence](https://leetcode.com/problems/erect-the-fence/)
 - [1515. best-position-for-a-service-centre](https://leetcode.com/problems/best-position-for-a-service-centre/)
 
+## 𐀴 Union Find
+
+###### Medium
+
+- [200. 岛屿数量](https://leetcode.com/problems/number-of-islands/)
+- [721. 账户合并](https://leetcode.com/problems/accounts-merge/)
+- [547. 省份数量](https://leetcode.com/problems/number-of-provinces/)
+- [130. 被围绕的区域](https://leetcode.com/problems/surrounded-regions/)
+- [1631. 最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort/)
+- [399. 除法求值](https://leetcode.com/problems/evaluate-division/)
+- [1319. 连通网络的操作次数](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+- [684. 冗余连接](https://leetcode.com/problems/redundant-connection/)
+
+###### Hard
+
+- [128. 最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [765. 情侣牵手](https://leetcode.com/problems/couples-holding-hands/)
+
 
 ## 𐀴 Dynamic-Programming
 
