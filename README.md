@@ -377,6 +377,9 @@
 - [128. 最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [765. 情侣牵手](https://leetcode.com/problems/couples-holding-hands/)
 
+## 𐀴 Data-Structure-Design
+-[**146. lru-cache**](https://leetcode.com/problems/lru-cache/)
+
 
 ## 𐀴 Dynamic-Programming
 
