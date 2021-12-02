@@ -26,6 +26,7 @@
     - Topological Sort 
 - [𐀴 DFS/Backtracking](#𐀴-DFS-Backtracking)
 - [𐀴 Math](#𐀴-Math)
+- [𐀴 Data Structure Design](#𐀴-Data-Structure-Design)
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
 ## 𐀴 Binary-Search
