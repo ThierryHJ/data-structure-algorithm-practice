@@ -380,6 +380,7 @@
 
 ## 𐀴 Data-Structure-Design
 -[**146. lru-cache**](https://leetcode.com/problems/lru-cache/)
+-[**380. insert-delete-getrandom-O(1)**](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 
 ## 𐀴 Dynamic-Programming
