@@ -26,6 +26,9 @@
     - Topological Sort 
 - [𐀴 DFS/Backtracking](#𐀴-DFS-Backtracking)
 - [𐀴 Math](#𐀴-Math)
+    - Randomized
+    - Geometry
+    - Simulation
 - [𐀴 Data Structure Design](#𐀴-Data-Structure-Design)
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
@@ -359,6 +362,9 @@
 
 - [587. erect-the-fence](https://leetcode.com/problems/erect-the-fence/)
 - [1515. best-position-for-a-service-centre](https://leetcode.com/problems/best-position-for-a-service-centre/)
+
+### Simulation
+- [**54.spiral-matrix**](https://leetcode.com/problems/spiral-matrix/)
 
 ## 𐀴 Union Find
 
