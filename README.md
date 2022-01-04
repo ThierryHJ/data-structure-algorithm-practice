@@ -16,6 +16,7 @@
 - [𐀴 Stack](#𐀴-Stack)
     - Basic
     - Monotone
+- [𐀴 Heap](#𐀴-Heap)
 - [𐀴 Sorting](#𐀴-Sorting)
 - [𐀴 Tree](#𐀴-Tree)
     - Traverse
@@ -149,6 +150,12 @@
 - [85. maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - [321. create-maximum-number](https://leetcode.com/problems/create-maximum-number/)
 - [239. sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum/solution/)
+
+
+## 𐀴 Heap
+- [215. kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [629. top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
+
 
 ## 𐀴 Sorting
 #### Quick Sort, Merge Sort, Bubble Sort, etc:
