@@ -5,11 +5,6 @@
 - 增加细分类别，例如单调栈，前缀树等
 
 # 目录
-- [𐀴 Binary Search](#𐀴-Binary-Search)
-- [𐀴 Two Pointers](#𐀴-Two-Pointers)
-    - Two Arrays Same Direction
-    - One Array Opposite Direction
-    - One Array Same Direction
 - [𐀴 Linked List](#𐀴-Linked-List)
     - Single Linked List
     - Two Linked List
@@ -17,12 +12,19 @@
     - Basic
     - Monotone
 - [𐀴 Heap](#𐀴-Heap)
-- [𐀴 Sorting](#𐀴-Sorting)
 - [𐀴 Tree](#𐀴-Tree)
     - Traverse
     - Path | Depth | Inverse | Others with Devide and Conquer
     - Binary Search Tree
-    - Trie
+    - Trie 
+- [𐀴 Data Structure Design](#𐀴-Data-Structure-Design)
+
+- [𐀴 Binary Search](#𐀴-Binary-Search)
+- [𐀴 Two Pointers](#𐀴-Two-Pointers)
+    - Two Arrays Same Direction
+    - One Array Opposite Direction
+    - One Array Same Direction
+- [𐀴 Sorting](#𐀴-Sorting)
 - [𐀴 BFS](#𐀴-BFS)
     - Topological Sort 
 - [𐀴 DFS/Backtracking](#𐀴-DFS-Backtracking)
@@ -30,7 +32,7 @@
     - Randomized
     - Geometry
     - Simulation
-- [𐀴 Data Structure Design](#𐀴-Data-Structure-Design)
+- [𐀴 Union Find](#𐀴-Union-find)
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
 ## 𐀴 Binary-Search
@@ -374,7 +376,7 @@
 ### Simulation
 - [**54.spiral-matrix**](https://leetcode.com/problems/spiral-matrix/)
 
-## 𐀴 Union Find
+## 𐀴 Union-Find
 
 ###### Medium
 
