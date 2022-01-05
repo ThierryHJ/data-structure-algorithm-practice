@@ -18,7 +18,6 @@
     - Binary Search Tree
     - Trie 
 - [𐀴 Data Structure Design](#𐀴-Data-Structure-Design)
-
 - [𐀴 Binary Search](#𐀴-Binary-Search)
 - [𐀴 Two Pointers](#𐀴-Two-Pointers)
     - Two Arrays Same Direction
