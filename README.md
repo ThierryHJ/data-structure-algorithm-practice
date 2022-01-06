@@ -146,8 +146,8 @@
 
 ###### Hard
 
-- [42. trapping-rain-water/](https://leetcode.com/problems/trapping-rain-water/)
-- [84. largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [**42. trapping-rain-water**](https://leetcode.com/problems/trapping-rain-water/)
+- [**84. largest-rectangle-in-histogram**](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [85. maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - [321. create-maximum-number](https://leetcode.com/problems/create-maximum-number/)
 - [239. sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum/solution/)
