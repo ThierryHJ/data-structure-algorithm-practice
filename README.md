@@ -401,7 +401,7 @@
 
 ## 𐀴 Dynamic-Programming
 
-#### 坐标 (Coordinate)
+## 坐标 (Coordinate)
 ###### Easy
 - [**70.climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
 - [**53.maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
@@ -436,7 +436,15 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 
 - [**139. word-break**](https://leetcode.com/problems/word-break/)
 - [**91. decode-ways**](https://leetcode.com/problems/decode-ways/)
+
+## 区间 (devide-and-conquer)
+大的subarray/substring依赖于小的subarray/substring 
+dp[i][j] = max/min/sum/or(dp[i][j]之内更小的若干区间）
+
+- [312. burst-ballons](https://leetcode.com/problems/burst-balloons/)
 - [**5. longest-palindromic-substring**](https://leetcode.com/problems/longest-palindromic-substring/)
+- [1000. minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
+
 
 ## 背包 (Knapsack)
 ###### Unbounded
