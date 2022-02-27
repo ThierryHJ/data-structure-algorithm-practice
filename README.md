@@ -228,10 +228,13 @@ BST的中序遍历
 - [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
 ## Trie
+
 基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
+
 创建trie逻辑：
-    - trie as empty dictionary
-    - 
+    1. trie as empty dictionary
+    2. for word in words; node = trie
+    3. for char in word; node = node.setdefault(char, {}); at the end set the final node['#'] as word
 
 
 - [720. longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
