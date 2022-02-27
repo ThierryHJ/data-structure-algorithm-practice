@@ -93,12 +93,12 @@ Algorithm
 
 
 ## 𐀴 Monotone-Stack:
-###### Easy
+    基础知识：单调栈一般用于解决数组中找出每个数字的第一个大于／小于该数字的位置或者数字；
+    单调队列只见过一道题需要使用；
+    不论单调栈还是单调队列，单调的意思是保留在栈或者队列中的数字是单调递增或者单调递减的
+
 
 - [496. next-greater-element-i](https://leetcode.com/problems/next-greater-element-i/)
-
-###### Medium
-
 - [739. daily-temperatures](https://leetcode.com/problems/daily-temperatures/)
 - [402. remove-k-digits](https://leetcode.com/problems/remove-k-digits/)
 - [456. 132-pattern](https://leetcode.com/problems/132-pattern/)
@@ -232,8 +232,8 @@ Algorithm
 
 ## 𐀴 Data-Structure-Design
 
-- [**146. lru-cache**](https://leetcode.com/problems/lru-cache/)
-- [**380. insert-delete-getrandom-O(1)**](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+- [146. lru-cache](https://leetcode.com/problems/lru-cache/)
+- [380. insert-delete-getrandom-O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 
 ## 𐀴 Binary-Search
@@ -407,6 +407,15 @@ Algorithm
     •   当状态转移的拓扑顺序不明显或者边界情况比较难处理时，建议采用 记忆化搜索，也就是 DFS + Memo。
     •   如果转移的拓扑顺序非常明显，建议采用 递推 的方式，因为这样可以加快运行速度，且不容易出现栈溢出等问题。
 
+- [509.fibonacci-number](https://leetcode.com/problems/fibonacci-number/)
+- [139.word-break](https://leetcode.com/problems/word-break/)
+- [241.different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
+- [276.paint-fence](https://leetcode.com/problems/paint-fence/)
+
+###### Hard
+- [140.word-break-ii](https://leetcode.com/problems/word-break-ii/)
+- [329.longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+- [44.wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
 
 
 ## 𐀴 Math
@@ -449,20 +458,18 @@ Algorithm
 - [**54.spiral-matrix**](https://leetcode.com/problems/spiral-matrix/)
 
 ## 𐀴 Union-Find
+    基础知识：如果数据不是实时变化，本类问题可以用BFS或者DFS的方式遍历，
+    如果数据实时变化（data stream）则并查集每次的时间复杂度可以视为O（1）；需要牢记合并与查找两个操作的模板
 
-- [200. 岛屿数量](https://leetcode.com/problems/number-of-islands/)
-- [721. 账户合并](https://leetcode.com/problems/accounts-merge/)
-- [547. 省份数量](https://leetcode.com/problems/number-of-provinces/)
-- [130. 被围绕的区域](https://leetcode.com/problems/surrounded-regions/)
-- [1631. 最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort/)
-- [399. 除法求值](https://leetcode.com/problems/evaluate-division/)
-- [1319. 连通网络的操作次数](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
-- [684. 冗余连接](https://leetcode.com/problems/redundant-connection/)
+- [200. number-of-islands](https://leetcode.com/problems/number-of-islands/)
+- [721. accounts-merge](https://leetcode.com/problems/accounts-merge/)
+- [547. number-of-provinces](https://leetcode.com/problems/number-of-provinces/)
+- [1631. path-with-minimum-effort](https://leetcode.com/problems/path-with-minimum-effort/)
+- [399. evaluate-division](https://leetcode.com/problems/evaluate-division/)
 
 ###### Hard
-
-- [128. 最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/)
-- [765. 情侣牵手](https://leetcode.com/problems/couples-holding-hands/)
+- [128. longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [765. couples-holding-hands](https://leetcode.com/problems/couples-holding-hands/)
 
 
 ## 𐀴 Dynamic-Programming
