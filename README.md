@@ -13,9 +13,10 @@ Data Structure
 - [𐀴 Heap](#𐀴-Heap)
 - [𐀴 Tree](#𐀴-Tree)
     - Traverse
+    - Construct
     - Path | Depth | Inverse | Others with Devide and Conquer
-    - Binary Search Tree
-    - Trie 
+- [𐀴 Binary Search Tree](#𐀴-Binary-Search-Tree)
+- [𐀴 Trie](#𐀴-Trie) 
 - [𐀴 Data Structure Design](#𐀴-Data-Structure-Design)
 
 Algorithm
@@ -39,32 +40,32 @@ Algorithm
 ## 𐀴 Single-Linked-List
 Tips1: 使用dummy node指向head可以保留最原始的head reference
 
-##### 使用linked list的特性遍历
+#### 使用linked list的特性遍历
 - [2. https://leetcode.com/problems/add-two-numbers/]
 
-##### 使用linked list的特性reference node
+#### 使用linked list的特性reference node
 - [138. https://leetcode.com/problems/copy-list-with-random-pointer/]
 
-##### Reverse
+#### Reverse
 - [206. https://leetcode.com/problems/reverse-linked-list/]
 
-##### Remove
+#### Remove
 - [203. https://leetcode.com/problems/remove-linked-list-elements/]
 - [237. https://leetcode.com/problems/delete-node-in-a-linked-list/]
 
-##### Two Pointers/Multiple Pointers with Linked List
+#### Two Pointers/Multiple Pointers with Linked List
 - [876. https://leetcode.com/problems/middle-of-the-linked-list/]
 - [19. https://leetcode.com/problems/remove-nth-node-from-end-of-list/]
 - [21. https://leetcode.com/problems/merge-two-sorted-lists/]
 - [23. https://leetcode.com/problems/merge-k-sorted-lists/]
 
-##### hash map/list 存储linked list记录
+#### hash map/list 存储linked list记录
 - [141. linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [83. remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [148. https://leetcode.com/problems/sort-list/]
 - [160. intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
-##### 结合了多种基础操作
+#### 结合了多种基础操作
 - [234. https://leetcode.com/problems/palindrome-linked-list/]
 - [61. https://leetcode-cn.com/problems/rotate-list/]
 - [328. https://leetcode.com/problems/odd-even-linked-list/] (双指针以同样速度前进，最后拼接)
@@ -86,13 +87,14 @@ Tips1: 使用dummy node指向head可以保留最原始的head reference
 - [735. https://leetcode.com/problems/asteroid-collision/]
 - [1190. https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
 
-#### stack进行operation
-思路主要在于遇到（与遇到）分别该如何操作。一般遇到（前做一系列操作，遇到（时append stack，遇到）时pop from stack
+#### Stack进行operation
+思路主要在于遇到 ( 与遇到 ) 分别该如何操作。一般遇到（ 前做一系列操作，遇到（ 时append to stack，遇到 ）时pop from stack
 
 - [394. https://leetcode.com/problems/decode-string/]
 - [227. https://leetcode.com/problems/basic-calculator-ii/]
 - [224. https://leetcode.com/problems/basic-calculator/]
 - [726. https://leetcode.com/problems/number-of-atoms/]
+
 
 ## 𐀴 Monotone-Stack:
 ###### Easy
@@ -119,23 +121,27 @@ Tips1: 使用dummy node指向head可以保留最原始的head reference
 ## 𐀴 Heap
 Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
 
-#### Heap主要的题型有
+Heap主要的题型有
 •   找第k大或第k小的元素
 •   找前k个无序元素
 
+
+#### 找第k大或第k小的元素
 - [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
 - [378. https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/]
 
-
+#### 找前k个无序元素
 - [629. https://leetcode.com/problems/top-k-frequent-words/]
 - [973. https://leetcode.com/problems/k-closest-points-to-origin/]
 - [347. https://leetcode.com/problems/top-k-frequent-elements/]
 
-
+#### 利用min heap/max heap特性
 - [295.https://leetcode.com/problems/find-median-from-data-stream/]
 
 
 ## 𐀴 Sorting
+Time and Space complexity of all kinds of sort
+
 #### Quick Sort, Merge Sort, Bubble Sort, etc:
 - [https://leetcode.com/problems/sort-an-array/]
 
@@ -150,16 +156,16 @@ Adding to/removing from the heap (or priority queue) only takes O(logk) time whe
 ###### Easy
 
 - [145. binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-- [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-- [589. n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
-- [144. binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+- [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS)
+- [589. n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) (DFS)
+- [144. binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (DFS)
 - [590. n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)
 
 ###### Medium
 
-- [102. binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- [103. binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-- [107. binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+- [102. binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (BFS)
+- [103. binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (BFS)
+- [107. binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) 
 
 #### Construct
 
@@ -206,7 +212,7 @@ Adding to/removing from the heap (or priority queue) only takes O(logk) time whe
 - [297. serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
 
-#### Binary Search Tree
+## Binary-Search-Tree
 
 ###### Easy
 
@@ -222,7 +228,7 @@ Adding to/removing from the heap (or priority queue) only takes O(logk) time whe
 - [230. kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
-#### Trie
+## Trie
 
 ###### Easy
 
@@ -237,6 +243,7 @@ Adding to/removing from the heap (or priority queue) only takes O(logk) time whe
 ###### Hard
 
 - [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
+
 
 
 ## 𐀴 Binary-Search
@@ -289,13 +296,14 @@ The right bound is sum(A).
 
 
 ## 𐀴 Two-Pointers
+基础知识：常见双指针算法分为三类，同向（即两个指针都相同一个方向移动），背向（两个指针从相同或者相邻的位置出发，背向移动直到其中一根指针到达边界为止），相向（两个指针从两边出发一起向中间移动直到两个指针相遇）
 
 #### Two Arrays Same Direction
 ###### Easy
 - [88. https://leetcode.com/problems/merge-sorted-array/]
 - [349. https://leetcode.com/problems/intersection-of-two-arrays/]
 
-#### One Array Opposite Direction
+#### 相向双指针：(以two sum为基础的一系列题)
 ###### Easy
 - [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] 
 
@@ -305,10 +313,10 @@ The right bound is sum(A).
 - [75. https://leetcode.com/problems/sort-colors/]
 
 #### One Array Same Direction
-###### Easy
-- [283. https://leetcode.com/problems/move-zeroes/]
+•   Longest则尽可能move right pointer，until invalid
+•   Shortest则尽可能move left pointer，while valid
 
-###### Medium:
+- [283. https://leetcode.com/problems/move-zeroes/]
 - [**3. https://leetcode.com/problems/longest-substring-without-repeating-characters/**] 
 - [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
 - [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
@@ -319,12 +327,13 @@ The right bound is sum(A).
 - [992. https://leetcode.com/problems/subarrays-with-k-different-integers/]
 
 ## 𐀴 BFS
+基础知识：
+•   常见的BFS用来解决什么问题？(1) 简单图（有向无向皆可）的最短路径长度，注意是长度而不是具体的路径（2）拓扑排序 （3） 遍历一个图（或者树）
+•   BFS基本模板（需要记录层数或者不需要记录层数）
+•   多数情况下时间复杂度空间复杂度都是O（N+M），N为节点个数，M为边的个数
 
-###### Easy
-
+#### 基于图的BFS：（一般需要一个set来记录访问过的节点）
 - [**690. employee-importance**](https://leetcode.com/problems/employee-importance/)
-
-###### Medium
 - [**200. number-of-islands**](https://leetcode.com/problems/number-of-islands/)
 - [**130. surrounded-regions**](https://leetcode.com/problems/surrounded-regions/)
 - [1319. number-of-operations-to-make-network-connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
@@ -348,16 +357,13 @@ The right bound is sum(A).
 
 #### Topological Sort
 
-###### Medium
 - [**207. course-schedule**](https://leetcode.com/problems/course-schedule/)
 - [210. course-schedule-ii](https://leetcode.com/problems/course-schedule-ii/)
 - [**310.minimum-height-trees**](https://leetcode.com/problems/minimum-height-trees/)
-
 ###### Hard
 - [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
 ## 𐀴 DFS-Backtracking
-###### Medium
 
 - [**46. permutations**](https://leetcode.com/problems/permutations/)
 - [**22. generate-parentheses**](https://leetcode.com/problems/generate-parentheses/)
@@ -385,16 +391,12 @@ The right bound is sum(A).
 
 ## 𐀴 Math
 
-##### Easy
 
 - [**204. count-primes**](https://leetcode.com/problems/count-primes/)
 - [**628. maximum-product-of-three-numbers**](https://leetcode.com/problems/maximum-product-of-three-numbers/)
 - [976. largest-perimeter-triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
 - [**202. happy-number**](https://leetcode.com/problems/happy-number/)
 - [**1232. check-if-it-is-a-straight-line**](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
-
-###### Medium
-
 - [29. divide-two-integers](https://leetcode.com/problems/divide-two-integers/)
 - [**343. integer-break**](https://leetcode.com/problems/integer-break/)
 - [166. fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
@@ -404,23 +406,18 @@ The right bound is sum(A).
 - [149. max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line/)
 
 
-### Randomized
+#### Randomized
 
 ###### Medium
 
 - [528. random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight/)
 - [**470. implement-rand10-using-rand7**](https://leetcode.com/problems/implement-rand10-using-rand7/)
 
-### Geometry
-
-###### Easy
+#### Geometry
 
 - [**1232. check-if-it-is-a-straight-line**](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
 - [1266. minimum-time-visiting-all-points](https://leetcode.com/problems/minimum-time-visiting-all-points/)
 - [892. surface-area-of-3d-shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)
-
-###### Medium
-
 - [1401. circle-and-rectangle-overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)
 - [963. minimum-area-rectangle-ii II](https://leetcode.com/problems/minimum-area-rectangle-ii/)
 
@@ -429,12 +426,10 @@ The right bound is sum(A).
 - [587. erect-the-fence](https://leetcode.com/problems/erect-the-fence/)
 - [1515. best-position-for-a-service-centre](https://leetcode.com/problems/best-position-for-a-service-centre/)
 
-### Simulation
+#### Simulation
 - [**54.spiral-matrix**](https://leetcode.com/problems/spiral-matrix/)
 
 ## 𐀴 Union-Find
-
-###### Medium
 
 - [200. 岛屿数量](https://leetcode.com/problems/number-of-islands/)
 - [721. 账户合并](https://leetcode.com/problems/accounts-merge/)
@@ -459,13 +454,11 @@ The right bound is sum(A).
 ## 𐀴 Dynamic-Programming
 
 ## 坐标 (Coordinate)
-###### Easy
+
 - [**70.climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
 - [**53.maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
 - [**121. best-time-to-buy-and-sell-stock**](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - [**746.min-cost-climbing-stairs**](https://leetcode.com/problems/min-cost-climbing-stairs/)
-
-###### Medium
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)
 - [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
 - [**198. house-robber**](https://leetcode.com/problems/house-robber/)
