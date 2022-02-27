@@ -140,15 +140,6 @@ Heap主要的题型有
 - [295.https://leetcode.com/problems/find-median-from-data-stream/]
 
 
-## 𐀴 Sorting
-1. Time and Space complexity of all kinds of sort
-
-#### Quick Sort, Merge Sort, Bubble Sort, etc:
-- [https://leetcode.com/problems/sort-an-array/]
-
-#### Quick Select：
-- [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
-
 
 ## 𐀴 Tree
 
@@ -208,7 +199,7 @@ Heap主要的题型有
 - [297. serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
 
-## Binary-Search-Tree
+## 𐀴 Binary-Search-Tree
 
 BST特征：中序遍历为单调递增的二叉树，换句话说，根节点的值比左子树任意节点值都大，比右子树任意节点值都小，增删查改均为O（h）复杂度，h为树的高度；注意不是所有的BST题目都需要递归，有的题目只需要while循环即可
 
@@ -227,7 +218,7 @@ BST的中序遍历
 - [230. kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
-## Trie
+## 𐀴 Trie
 
 基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
 
@@ -246,6 +237,11 @@ BST的中序遍历
 
 - [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
 
+
+## 𐀴 Data-Structure-Design
+
+- [**146. lru-cache**](https://leetcode.com/problems/lru-cache/)
+- [**380. insert-delete-getrandom-O(1)**](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 
 ## 𐀴 Binary-Search
@@ -324,6 +320,17 @@ Shortest则尽可能move left pointer，while valid
 ###### Hard:
 - [76. https://leetcode.com/problems/minimum-window-substring/]
 - [992. https://leetcode.com/problems/subarrays-with-k-different-integers/]
+
+
+## 𐀴 Sorting
+Time and Space complexity of all kinds of sort
+
+#### Quick Sort, Merge Sort, Bubble Sort, etc:
+- [https://leetcode.com/problems/sort-an-array/]
+
+#### Quick Select：
+- [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
+
 
 ## 𐀴 BFS
 基础知识：
@@ -446,11 +453,6 @@ Shortest则尽可能move left pointer，while valid
 
 - [128. 最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [765. 情侣牵手](https://leetcode.com/problems/couples-holding-hands/)
-
-## 𐀴 Data-Structure-Design
-
-- [**146. lru-cache**](https://leetcode.com/problems/lru-cache/)
-- [**380. insert-delete-getrandom-O(1)**](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 
 ## 𐀴 Dynamic-Programming
