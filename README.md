@@ -121,16 +121,14 @@
 #### 正常类型:利用Stack结构或特性
 - [20.https://leetcode.com/problems/valid-parentheses]
 - [1047. https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
-
 - [735. https://leetcode.com/problems/asteroid-collision/]
 - [1190. https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
 
 #### stack进行operation
-•	思路主要在于遇到（与遇到）分别该如何操作。一般遇到（前做一系列操作，遇到（时append stack，遇到）时pop from stack
+思路主要在于遇到（与遇到）分别该如何操作。一般遇到（前做一系列操作，遇到（时append stack，遇到）时pop from stack
 
 - [394. https://leetcode.com/problems/decode-string/]
 - [227. https://leetcode.com/problems/basic-calculator-ii/]
-
 - [224. https://leetcode.com/problems/basic-calculator/]
 - [726. https://leetcode.com/problems/number-of-atoms/]
 
