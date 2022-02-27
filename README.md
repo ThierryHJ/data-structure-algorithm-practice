@@ -275,31 +275,31 @@ Algorithm
 ## 𐀴 Two-Pointers
     基础知识：常见双指针算法分为三类，同向（即两个指针都相同一个方向移动），背向（两个指针从相同或者相邻的位置出发，背向移动直到其中一根指针到达边界为止），相向（两个指针从两边出发一起向中间移动直到两个指针相遇）
 
-#### Two Array同向双指针
+#### 基本同向双指针
 
-- [88. https://leetcode.com/problems/merge-sorted-array/]
-- [349. https://leetcode.com/problems/intersection-of-two-arrays/]
+- [88.merge-sorted-array](https://leetcode.com/problems/merge-sorted-array/)
+- [349.intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+- [283.move-zeroes](https://leetcode.com/problems/move-zeroes/)
 
 #### 相向双指针：(以two sum为基础的一系列题)
 
-- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] 
-- [15. https://leetcode.com/problems/3sum/] 
-- [16. https://leetcode.com/problems/3sum-closest/]
-- [75. https://leetcode.com/problems/sort-colors/]
+- [167.two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [15.3sum](https://leetcode.com/problems/3sum/)
+- [16.3sum-closest](https://leetcode.com/problems/3sum-closest/)
+- [75.sort-colors](https://leetcode.com/problems/sort-colors/)
 
 #### 同向双指针(Sliding Window)
     Longest则尽可能move right pointer，until invalid
     Shortest则尽可能move left pointer，while valid
 
-- [283. https://leetcode.com/problems/move-zeroes/]
-- [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/] 
-- [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
-- [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
-- [560. https://leetcode.com/problems/subarray-sum-equals-k/] (optimized with prefix-sum)
+- [3.longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [340.longest-substring-with-at-most-k-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+- [424.longest-repeating-character-replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [560.subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k/) (optimized with prefix-sum)
 
 ###### Hard:
-- [76. https://leetcode.com/problems/minimum-window-substring/]
-- [992. https://leetcode.com/problems/subarrays-with-k-different-integers/]
+- [76. minimum-window-substring](https://leetcode.com/problems/minimum-window-substring/)
+- [992. subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
 
 
 ## 𐀴 Sorting
