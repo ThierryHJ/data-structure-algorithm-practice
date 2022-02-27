@@ -38,7 +38,7 @@ Algorithm
     
 
 ## 𐀴 Single-Linked-List
-1. 使用dummy node指向head可以保留最原始的head reference
+使用dummy node指向head可以保留最原始的head reference
 
 #### 使用linked list的特性遍历
 - [2. https://leetcode.com/problems/add-two-numbers/]
@@ -79,7 +79,7 @@ Algorithm
 
 
 ## 𐀴 Stack
-1. 栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
+栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
 
 #### 正常类型:利用Stack结构或特性
 - [20.https://leetcode.com/problems/valid-parentheses]
@@ -119,8 +119,10 @@ Algorithm
 
 
 ## 𐀴 Heap
-1. Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
-2. Heap主要的题型有
+
+Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
+
+Heap主要的题型有
     - 找第k大或第k小的元素
     - 找前k个无序元素
 
@@ -207,13 +209,14 @@ Algorithm
 
 
 ## Binary-Search-Tree
-1. BST特征：中序遍历为单调递增的二叉树，换句话说，根节点的值比左子树任意节点值都大，比右子树任意节点值都小，增删查改均为O（h）复杂度，h为树的高度；注意不是所有的BST题目都需要递归，有的题目只需要while循环即可
 
-2. BST的搜索：
-while node
-check larger or smaller，node.next
+BST特征：中序遍历为单调递增的二叉树，换句话说，根节点的值比左子树任意节点值都大，比右子树任意节点值都小，增删查改均为O（h）复杂度，h为树的高度；注意不是所有的BST题目都需要递归，有的题目只需要while循环即可
 
-3. BST的中序遍历
+BST的搜索：
+    - while node
+    - check larger or smaller，node.next
+
+BST的中序遍历
 
 - [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [270. closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value/)
@@ -225,10 +228,10 @@ check larger or smaller，node.next
 - [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
 ## Trie
-1. 基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
-2. 创建trie逻辑：
-(1) trie as empty dictionary
-(2) 
+基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
+创建trie逻辑：
+    - trie as empty dictionary
+    - 
 
 
 - [720. longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
@@ -243,14 +246,15 @@ check larger or smaller，node.next
 
 
 ## 𐀴 Binary-Search
+
 基础知识：二分法是用来解法基本模板，时间复杂度logN；常见的二分法题目可以分为两大类，显式与隐式，即是否能从字面上一眼看出二分法的特点：要查找的数据是否可以分为两部分，前半部分为X，后半部分为O
 
 bisect.bisect_left(array, num) 可以查找第一个大于等于num的值
 
 #### 显示二分法
 while start + 1 < end: mid = (start +_end) // 2
-if looking for leftmost position: if array[mid] >= target: end = mid; else: start = mid
-if looking for rightmost position:  if array[mid] <= target: start = mid; else: end = mid
+    - if looking for leftmost position: if array[mid] >= target: end = mid; else: start = mid
+    - if looking for rightmost position:  if array[mid] <= target: start = mid; else: end = mid
 
 ###### Easy:
 - [278. https://leetcode.com/problems/first-bad-version/]
@@ -272,14 +276,12 @@ if looking for rightmost position:  if array[mid] <= target: start = mid; else: 
 - [69. https://leetcode.com/problems/sqrtx/] (search space reduction)
 - [540.https://leetcode.com/problems/single-element-in-a-sorted-array/] (search for an element has different pattern with others)
 
-###### Find the value in a bounding range
-Given the number of bags,
-return the minimum capacity of each bag,
-so that we can put items one by one into all bags.
+##### Find the value in a bounding range
+Given the number of bags, return the minimum capacity of each bag, so that we can put items one by one into all bags.
 
 We binary search the final result.
-The left bound is max(A),
-The right bound is sum(A).
+    - The left bound is max(A),
+    - The right bound is sum(A).
 
 - [1891. https://leetcode.com/problems/cutting-ribbons/]
 - [410.https://leetcode.com/problems/split-array-largest-sum/]
@@ -322,9 +324,11 @@ Shortest则尽可能move left pointer，while valid
 
 ## 𐀴 BFS
 基础知识：
-•   常见的BFS用来解决什么问题？(1) 简单图（有向无向皆可）的最短路径长度，注意是长度而不是具体的路径（2）拓扑排序 （3） 遍历一个图（或者树）
-•   BFS基本模板（需要记录层数或者不需要记录层数）
-•   多数情况下时间复杂度空间复杂度都是O（N+M），N为节点个数，M为边的个数
+    - 常见的BFS用来解决什么问题？(1) 简单图（有向无向皆可）的最短路径长度，注意是长度而不是具体的路径（2）拓扑排序 （3） 遍历一个图（或者树）
+
+    - BFS基本模板（需要记录层数或者不需要记录层数）
+
+    - 多数情况下时间复杂度空间复杂度都是O（N+M），N为节点个数，M为边的个数
 
 #### 基于图的BFS：（一般需要一个set来记录访问过的节点）
 - [**690. employee-importance**](https://leetcode.com/problems/employee-importance/)
@@ -354,6 +358,7 @@ Shortest则尽可能move left pointer，while valid
 - [**207. course-schedule**](https://leetcode.com/problems/course-schedule/)
 - [210. course-schedule-ii](https://leetcode.com/problems/course-schedule-ii/)
 - [**310.minimum-height-trees**](https://leetcode.com/problems/minimum-height-trees/)
+
 ###### Hard
 - [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
@@ -383,8 +388,8 @@ Shortest则尽可能move left pointer，while valid
 - [126. word-ladder-ii](https://leetcode.com/problems/word-ladder-ii/)
 - [1659. maximize-grid-happiness](https://leetcode.com/problems/maximize-grid-happiness/)
 
-## 𐀴 Math
 
+## 𐀴 Math
 
 - [**204. count-primes**](https://leetcode.com/problems/count-primes/)
 - [**628. maximum-product-of-three-numbers**](https://leetcode.com/problems/maximum-product-of-three-numbers/)
@@ -475,8 +480,10 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 - [44. wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
 
 ## 前缀 - 划分 (partition)
-- 指定划分部分：dp[i][j]表示前i个字符划分为j个部分的最优值
-- 未指定划分部分： dp[i]表示前i个字符划分为若干个部分的最优值
+
+指定划分部分：dp[i][j]表示前i个字符划分为j个部分的最优值
+
+未指定划分部分： dp[i]表示前i个字符划分为若干个部分的最优值
 
 - [**139. word-break**](https://leetcode.com/problems/word-break/)
 - [**91. decode-ways**](https://leetcode.com/problems/decode-ways/)
@@ -491,6 +498,7 @@ dp[i][j] = max/min/sum/or(dp[i][j]之内更小的若干区间）
 
 
 ## 背包 (Knapsack)
+
 ###### Unbounded
 - [rod-cutting-problem](https://www.jiuzhang.com/problem/cutting-a-rod/)
 - [**322. coin-change**](https://leetcode.com/problems/coin-change/)
