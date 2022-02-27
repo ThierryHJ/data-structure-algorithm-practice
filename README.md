@@ -35,51 +35,6 @@ Algorithm
 - [𐀴 Union Find](#𐀴-Union-find)
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
     
-## 𐀴 Binary-Search
-###### Easy:
-- [**278. https://leetcode.com/problems/first-bad-version/**]
-- [852. https://leetcode.com/problems/peak-index-in-a-mountain-array/]
-
-###### Medium:
-- [34. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/]
-- [74. https://leetcode.com/problems/search-a-2d-matrix/]
-- [153. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/]
-- [162. https://leetcode.com/problems/find-peak-element/]
-- [658. https://leetcode.com/problems/find-k-closest-elements/]
-
-##### Hard:
-- [4. https://leetcode.com/problems/median-of-two-sorted-arrays/]
-- [302. https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/]
-
-## 𐀴 Two-Pointers
-
-#### Two Arrays Same Direction
-###### Easy
-- [88. https://leetcode.com/problems/merge-sorted-array/]
-- [349. https://leetcode.com/problems/intersection-of-two-arrays/]
-
-#### One Array Opposite Direction
-###### Easy
-- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] 
-
-###### Medium:
-- [15. https://leetcode.com/problems/3sum/] 
-- [16. https://leetcode.com/problems/3sum-closest/]
-- [75. https://leetcode.com/problems/sort-colors/]
-
-#### One Array Same Direction
-###### Easy
-- [283. https://leetcode.com/problems/move-zeroes/]
-
-###### Medium:
-- [**3. https://leetcode.com/problems/longest-substring-without-repeating-characters/**] 
-- [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
-- [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
-- [560. https://leetcode.com/problems/subarray-sum-equals-k/] (optimized with prefix-sum)
-
-###### Hard:
-- [76. https://leetcode.com/problems/minimum-window-substring/]
-- [992. https://leetcode.com/problems/subarrays-with-k-different-integers/]
 
 ## 𐀴 Single-Linked-List
 #### Single Linked List：
@@ -274,6 +229,86 @@ Adding to/removing from the heap (or priority queue) only takes O(logk) time whe
 ###### Hard
 
 - [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
+
+
+## 𐀴 Binary-Search
+基础知识：二分法是用来解法基本模板，时间复杂度logN；常见的二分法题目可以分为两大类，显式与隐式，即是否能从字面上一眼看出二分法的特点：要查找的数据是否可以分为两部分，前半部分为X，后半部分为O
+
+bisect.bisect_left(array, num) 可以查找第一个大于等于num的值
+
+#### 显示二分法
+while start + 1 < end: mid = (start +_end) // 2
+if looking for leftmost position: if array[mid] >= target: end = mid; else: start = mid
+if looking for rightmost position:  if array[mid] <= target: start = mid; else: end = mid
+
+###### Easy:
+- [278. https://leetcode.com/problems/first-bad-version/]
+- [852. https://leetcode.com/problems/peak-index-in-a-mountain-array/]
+
+###### Medium:
+- [34. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/]
+- [74. https://leetcode.com/problems/search-a-2d-matrix/] 
+- [153. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/] (find the fisrt rotated idx, then search either side)
+- [162. https://leetcode.com/problems/find-peak-element/] 
+- [658. https://leetcode.com/problems/find-k-closest-elements/] (binary search + two pointers)
+- [528. https://leetcode.com/problems/random-pick-with-weight/] (binary search + prefix sum)
+
+###### Hard:
+- [4. https://leetcode.com/problems/median-of-two-sorted-arrays/]
+- [302. https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/]
+- [315. https://leetcode.com/problems/count-of-smaller-numbers-after-self/]
+- [154. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/] (variant of 153)
+
+#### 隐式二分法
+- [69. https://leetcode.com/problems/sqrtx/] (search space reduction)
+- [540.https://leetcode.com/problems/single-element-in-a-sorted-array/] (search for an element has different pattern with others)
+
+###### Find the value in a bounding range
+Given the number of bags,
+return the minimum capacity of each bag,
+so that we can put items one by one into all bags.
+
+We binary search the final result.
+The left bound is max(A),
+The right bound is sum(A).
+
+- [1891. https://leetcode.com/problems/cutting-ribbons/]
+- [410.https://leetcode.com/problems/split-array-largest-sum/]
+- [1231. https://leetcode.com/problems/divide-chocolate/]
+- [875.https://leetcode.com/problems/koko-eating-bananas/]
+- [1011.https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/]
+
+
+
+## 𐀴 Two-Pointers
+
+#### Two Arrays Same Direction
+###### Easy
+- [88. https://leetcode.com/problems/merge-sorted-array/]
+- [349. https://leetcode.com/problems/intersection-of-two-arrays/]
+
+#### One Array Opposite Direction
+###### Easy
+- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] 
+
+###### Medium:
+- [15. https://leetcode.com/problems/3sum/] 
+- [16. https://leetcode.com/problems/3sum-closest/]
+- [75. https://leetcode.com/problems/sort-colors/]
+
+#### One Array Same Direction
+###### Easy
+- [283. https://leetcode.com/problems/move-zeroes/]
+
+###### Medium:
+- [**3. https://leetcode.com/problems/longest-substring-without-repeating-characters/**] 
+- [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
+- [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
+- [560. https://leetcode.com/problems/subarray-sum-equals-k/] (optimized with prefix-sum)
+
+###### Hard:
+- [76. https://leetcode.com/problems/minimum-window-substring/]
+- [992. https://leetcode.com/problems/subarrays-with-k-different-integers/]
 
 ## 𐀴 BFS
 
