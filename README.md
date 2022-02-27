@@ -38,10 +38,10 @@ Algorithm
     
 
 ## 𐀴 Single-Linked-List
-* 使用dummy node指向head可以保留最原始的head reference
+1. 使用dummy node指向head可以保留最原始的head reference
 
 #### 使用linked list的特性遍历
-[2. https://leetcode.com/problems/add-two-numbers/]
+- [2. https://leetcode.com/problems/add-two-numbers/]
 
 #### 使用linked list的特性reference node
 - [138. https://leetcode.com/problems/copy-list-with-random-pointer/]
@@ -50,8 +50,8 @@ Algorithm
 - [206. https://leetcode.com/problems/reverse-linked-list/]
 
 #### Remove
-[203. https://leetcode.com/problems/remove-linked-list-elements/]
-[237. https://leetcode.com/problems/delete-node-in-a-linked-list/]
+- [203. https://leetcode.com/problems/remove-linked-list-elements/]
+- [237. https://leetcode.com/problems/delete-node-in-a-linked-list/]
 
 #### Two Pointers/Multiple Pointers with Linked List
 - [876. https://leetcode.com/problems/middle-of-the-linked-list/]
@@ -79,7 +79,7 @@ Algorithm
 
 
 ## 𐀴 Stack
-* 栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
+1. 栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
 
 #### 正常类型:利用Stack结构或特性
 - [20.https://leetcode.com/problems/valid-parentheses]
@@ -119,13 +119,10 @@ Algorithm
 
 
 ## 𐀴 Heap
-Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
-
-Heap主要的题型有
-
-•   找第k大或第k小的元素
-
-•   找前k个无序元素
+1. Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
+2. Heap主要的题型有
+    - 找第k大或第k小的元素
+    - 找前k个无序元素
 
 
 #### 找第k大或第k小的元素
@@ -142,7 +139,7 @@ Heap主要的题型有
 
 
 ## 𐀴 Sorting
-Time and Space complexity of all kinds of sort
+1. Time and Space complexity of all kinds of sort
 
 #### Quick Sort, Merge Sort, Bubble Sort, etc:
 - [https://leetcode.com/problems/sort-an-array/]
@@ -154,35 +151,32 @@ Time and Space complexity of all kinds of sort
 ## 𐀴 Tree
 
 #### Traverse
-
-###### Easy
+树一般有两种traverse方式，一种为DFS，另一种为BFS。一般需要level信息的时候可用BFS。
 
 - [145. binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 - [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS)
 - [589. n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) (DFS)
 - [144. binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (DFS)
 - [590. n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)
-
-###### Medium
-
 - [102. binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (BFS)
 - [103. binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (BFS)
 - [107. binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) 
 
 #### Construct
+树的构建一般需要在每层recursion创建新的node：node.val, node.left, node.right. 
 
-###### Easy
 - [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
-
-###### Medium
 - [105. construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [114. flatten-binary-tree-to-linked-list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
-- [889. construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - [1008. construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 
 
 #### Path | Depth | Inverse | Others with Devide and Conquer
+
+树的其他问题一般都由Devide and Conquer解决
+
+正常divide and conquer思路：在递归的每一层，node需要做什么，左子树需要做什么，右子树需要做什么
 
 ###### Easy
 
@@ -192,10 +186,8 @@ Time and Space complexity of all kinds of sort
 - [543. diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [257. binary-tree-paths](https://leetcode.com/problems/binary-tree-paths/)
 - [110. balanced-binary-tree](https://leetcode.com/problems/balanced-binary-tree/)
-- [617. merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/)
 - [100. same-tree](https://leetcode.com/problems/same-tree/)
 - [112. path-sum](https://leetcode.com/problems/path-sum/)
-- [111. minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 ###### Medium
 
@@ -215,14 +207,16 @@ Time and Space complexity of all kinds of sort
 
 
 ## Binary-Search-Tree
+1. BST特征：中序遍历为单调递增的二叉树，换句话说，根节点的值比左子树任意节点值都大，比右子树任意节点值都小，增删查改均为O（h）复杂度，h为树的高度；注意不是所有的BST题目都需要递归，有的题目只需要while循环即可
 
-###### Easy
+2. BST的搜索：
+while node
+check larger or smaller，node.next
+
+3. BST的中序遍历
 
 - [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [270. closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value/)
-
-###### Medium
-
 - [98. validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [96. unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees/)
 - [95. unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii/)
@@ -231,13 +225,13 @@ Time and Space complexity of all kinds of sort
 - [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
 ## Trie
+1. 基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
+2. 创建trie逻辑：
+(1) trie as empty dictionary
+(2) 
 
-###### Easy
 
 - [720. longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
-
-###### Medium
-
 - [208. implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [692. top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
 - [421. maximum-xor-of-two-numbers-in-an-array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
@@ -261,8 +255,6 @@ if looking for rightmost position:  if array[mid] <= target: start = mid; else: 
 ###### Easy:
 - [278. https://leetcode.com/problems/first-bad-version/]
 - [852. https://leetcode.com/problems/peak-index-in-a-mountain-array/]
-
-###### Medium:
 - [34. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/]
 - [74. https://leetcode.com/problems/search-a-2d-matrix/] 
 - [153. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/] (find the fisrt rotated idx, then search either side)
@@ -300,23 +292,23 @@ The right bound is sum(A).
 ## 𐀴 Two-Pointers
 基础知识：常见双指针算法分为三类，同向（即两个指针都相同一个方向移动），背向（两个指针从相同或者相邻的位置出发，背向移动直到其中一根指针到达边界为止），相向（两个指针从两边出发一起向中间移动直到两个指针相遇）
 
-#### Two Arrays Same Direction
-###### Easy
+#### Two Array同向双指针
+
 - [88. https://leetcode.com/problems/merge-sorted-array/]
 - [349. https://leetcode.com/problems/intersection-of-two-arrays/]
 
 #### 相向双指针：(以two sum为基础的一系列题)
-###### Easy
-- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] 
 
-###### Medium:
+- [167. https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/] 
 - [15. https://leetcode.com/problems/3sum/] 
 - [16. https://leetcode.com/problems/3sum-closest/]
 - [75. https://leetcode.com/problems/sort-colors/]
 
-#### One Array Same Direction
-•   Longest则尽可能move right pointer，until invalid
-•   Shortest则尽可能move left pointer，while valid
+#### 同向双指针(Sliding Window)
+
+Longest则尽可能move right pointer，until invalid
+
+Shortest则尽可能move left pointer，while valid
 
 - [283. https://leetcode.com/problems/move-zeroes/]
 - [**3. https://leetcode.com/problems/longest-substring-without-repeating-characters/**] 
