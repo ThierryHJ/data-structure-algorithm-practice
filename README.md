@@ -112,7 +112,7 @@ Tips1: 使用dummy node指向head可以保留最原始的head reference
 ###### 结合了多种基础操作
 - [234. palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
 - [61. https://leetcode-cn.com/problems/rotate-list/]
-- [328. https://leetcode.com/problems/odd-even-linked-list/](双指针以同样速度前进，最后拼接)
+- [328. https://leetcode.com/problems/odd-even-linked-list/] (双指针以同样速度前进，最后拼接)
 - [25. https://leetcode.com/problems/reverse-nodes-in-k-group/solution/]
 
 #### Doubly Linked List
