@@ -116,18 +116,21 @@
 - [23. merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ## 𐀴 Stack
-#### Basic:
-###### Easy
+栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。![image](https://user-images.githubusercontent.com/51846529/155866310-f5010b74-cc23-45d1-9ff8-b6e3fec11af8.png)
+
+#### 正常类型:利用Stack结构或特性
 - [20.https://leetcode.com/problems/valid-parentheses]
 - [1047. https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
 
-###### Medium
 - [735. https://leetcode.com/problems/asteroid-collision/]
 - [1190. https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
+
+#### stack进行operation
+•	思路主要在于遇到（与遇到）分别该如何操作。一般遇到（前做一系列操作，遇到（时append stack，遇到）时pop from stack
+
 - [394. https://leetcode.com/problems/decode-string/]
 - [227. https://leetcode.com/problems/basic-calculator-ii/]
 
-###### Hard
 - [224. https://leetcode.com/problems/basic-calculator/]
 - [726. https://leetcode.com/problems/number-of-atoms/]
 
