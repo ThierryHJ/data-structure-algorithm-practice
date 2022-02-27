@@ -1,8 +1,4 @@
 # data-structure-algorithm-practice
-分类 Leetcode 高频题 2021 版
-
-- 增加难度分类，适合从简单开始学习
-- 增加细分类别，例如单调栈，前缀树等
 
 # 目录
 Data Structure
@@ -38,34 +34,34 @@ Algorithm
     
 
 ## 𐀴 Single-Linked-List
-使用dummy node指向head可以保留最原始的head reference
+    使用dummy node指向head可以保留最原始的head reference
 
-#### 使用linked list的特性遍历
+### 使用linked list的特性遍历
 - [2. https://leetcode.com/problems/add-two-numbers/]
 
-#### 使用linked list的特性reference node
+### 使用linked list的特性reference node
 - [138. https://leetcode.com/problems/copy-list-with-random-pointer/]
 
-#### Reverse
+### Reverse
 - [206. https://leetcode.com/problems/reverse-linked-list/]
 
-#### Remove
+### Remove
 - [203. https://leetcode.com/problems/remove-linked-list-elements/]
 - [237. https://leetcode.com/problems/delete-node-in-a-linked-list/]
 
-#### Two Pointers/Multiple Pointers with Linked List
+### Two Pointers/Multiple Pointers with Linked List
 - [876. https://leetcode.com/problems/middle-of-the-linked-list/]
 - [19. https://leetcode.com/problems/remove-nth-node-from-end-of-list/]
 - [21. https://leetcode.com/problems/merge-two-sorted-lists/]
 - [23. https://leetcode.com/problems/merge-k-sorted-lists/]
 
-#### hash map/list 存储linked list记录
+### hash map/list 存储linked list记录
 - [141. linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [83. remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [148. https://leetcode.com/problems/sort-list/]
 - [160. intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
-#### 结合了多种基础操作
+### 结合了多种基础操作
 - [234. https://leetcode.com/problems/palindrome-linked-list/]
 - [61. https://leetcode-cn.com/problems/rotate-list/]
 - [328. https://leetcode.com/problems/odd-even-linked-list/] (双指针以同样速度前进，最后拼接)
@@ -79,7 +75,7 @@ Algorithm
 
 
 ## 𐀴 Stack
-栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
+    栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
 
 #### 正常类型:利用Stack结构或特性
 - [20.https://leetcode.com/problems/valid-parentheses]
@@ -88,7 +84,7 @@ Algorithm
 - [1190. https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
 
 #### Stack进行operation
-思路主要在于遇到 ( 与遇到 ) 分别该如何操作。一般遇到（ 前做一系列操作，遇到（ 时append to stack，遇到 ）时pop from stack
+    思路主要在于遇到 ( 与遇到 ) 分别该如何操作。一般遇到（ 前做一系列操作，遇到（ 时append to stack，遇到 ）时pop from stack
 
 - [394. https://leetcode.com/problems/decode-string/]
 - [227. https://leetcode.com/problems/basic-calculator-ii/]
@@ -120,11 +116,11 @@ Algorithm
 
 ## 𐀴 Heap
 
-Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
+    Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
 
-Heap主要的题型有
-    - 找第k大或第k小的元素
-    - 找前k个无序元素
+    Heap主要的题型有
+        - 找第k大或第k小的元素
+        - 找前k个无序元素
 
 
 #### 找第k大或第k小的元素
@@ -143,8 +139,8 @@ Heap主要的题型有
 
 ## 𐀴 Tree
 
-#### Traverse
-树一般有两种traverse方式，一种为DFS，另一种为BFS。一般需要level信息的时候可用BFS。
+### Traverse
+    树一般有两种traverse方式，一种为DFS，另一种为BFS。一般需要level信息的时候可用BFS。
 
 - [145. binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 - [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS)
@@ -155,8 +151,8 @@ Heap主要的题型有
 - [103. binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (BFS)
 - [107. binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) 
 
-#### Construct
-树的构建一般需要在每层recursion创建新的node：node.val, node.left, node.right. 
+### Construct
+    树的构建一般需要在每层recursion创建新的node：node.val, node.left, node.right. 
 
 - [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [105. construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -165,11 +161,10 @@ Heap主要的题型有
 - [1008. construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 
 
-#### Path | Depth | Inverse | Others with Devide and Conquer
+### Path | Depth | Inverse | Others with Devide and Conquer
+    树的其他问题一般都由Devide and Conquer解决
 
-树的其他问题一般都由Devide and Conquer解决
-
-正常divide and conquer思路：在递归的每一层，node需要做什么，左子树需要做什么，右子树需要做什么
+    正常divide and conquer思路：在递归的每一层，node需要做什么，左子树需要做什么，右子树需要做什么
 
 ###### Easy
 
@@ -200,14 +195,13 @@ Heap主要的题型有
 
 
 ## 𐀴 Binary-Search-Tree
+    BST特征：中序遍历为单调递增的二叉树，换句话说，根节点的值比左子树任意节点值都大，比右子树任意节点值都小，增删查改均为O（h）复杂度，h为树的高度；注意不是所有的BST题目都需要递归，有的题目只需要while循环即可
 
-BST特征：中序遍历为单调递增的二叉树，换句话说，根节点的值比左子树任意节点值都大，比右子树任意节点值都小，增删查改均为O（h）复杂度，h为树的高度；注意不是所有的BST题目都需要递归，有的题目只需要while循环即可
+    BST的搜索：
+        - while node
+        - check larger or smaller，node.next
 
-BST的搜索：
-    - while node
-    - check larger or smaller，node.next
-
-BST的中序遍历
+    BST的中序遍历
 
 - [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [270. closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value/)
@@ -219,13 +213,12 @@ BST的中序遍历
 - [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
 ## 𐀴 Trie
+    基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
 
-基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
-
-创建trie逻辑：
-    1. trie as empty dictionary
-    2. for word in words; node = trie
-    3. for char in word; node = node.setdefault(char, {}); at the end set the final node['#'] as word
+    创建trie逻辑：
+        1. trie as empty dictionary
+        2. for word in words; node = trie
+        3. for char in word; node = node.setdefault(char, {}); at the end set the final node['#'] as word
 
 
 - [720. longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
@@ -234,7 +227,6 @@ BST的中序遍历
 - [421. maximum-xor-of-two-numbers-in-an-array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 
 ###### Hard
-
 - [212. word-search-ii](https://leetcode.com/problems/word-search-ii/)
 
 
@@ -245,17 +237,15 @@ BST的中序遍历
 
 
 ## 𐀴 Binary-Search
+    基础知识：二分法是用来解法基本模板，时间复杂度logN；常见的二分法题目可以分为两大类，显式与隐式，即是否能从字面上一眼看出二分法的特点：要查找的数据是否可以分为两部分，前半部分为X，后半部分为O
 
-基础知识：二分法是用来解法基本模板，时间复杂度logN；常见的二分法题目可以分为两大类，显式与隐式，即是否能从字面上一眼看出二分法的特点：要查找的数据是否可以分为两部分，前半部分为X，后半部分为O
+    bisect.bisect_left(array, num) 可以查找第一个大于等于num的值
 
-bisect.bisect_left(array, num) 可以查找第一个大于等于num的值
+### 显示二分法
+    while start + 1 < end: mid = (start +_end) // 2
+        - if looking for leftmost position: if array[mid] >= target: end = mid; else: start = mid
+        - if looking for rightmost position:  if array[mid] <= target: start = mid; else: end = mid
 
-#### 显示二分法
-while start + 1 < end: mid = (start +_end) // 2
-    - if looking for leftmost position: if array[mid] >= target: end = mid; else: start = mid
-    - if looking for rightmost position:  if array[mid] <= target: start = mid; else: end = mid
-
-###### Easy:
 - [278. https://leetcode.com/problems/first-bad-version/]
 - [852. https://leetcode.com/problems/peak-index-in-a-mountain-array/]
 - [34. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/]
@@ -271,16 +261,16 @@ while start + 1 < end: mid = (start +_end) // 2
 - [315. https://leetcode.com/problems/count-of-smaller-numbers-after-self/]
 - [154. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/] (variant of 153)
 
-#### 隐式二分法
+### 隐式二分法
 - [69. https://leetcode.com/problems/sqrtx/] (search space reduction)
 - [540.https://leetcode.com/problems/single-element-in-a-sorted-array/] (search for an element has different pattern with others)
 
-##### Find the value in a bounding range
-Given the number of bags, return the minimum capacity of each bag, so that we can put items one by one into all bags.
+#### Find the value in a bounding range
+    Given the number of bags, return the minimum capacity of each bag, so that we can put items one by one into all bags.
 
-We binary search the final result.
-    - The left bound is max(A),
-    - The right bound is sum(A).
+    We binary search the final result.
+        - The left bound is max(A),
+        - The right bound is sum(A).
 
 - [1891. https://leetcode.com/problems/cutting-ribbons/]
 - [410.https://leetcode.com/problems/split-array-largest-sum/]
@@ -291,7 +281,7 @@ We binary search the final result.
 
 
 ## 𐀴 Two-Pointers
-基础知识：常见双指针算法分为三类，同向（即两个指针都相同一个方向移动），背向（两个指针从相同或者相邻的位置出发，背向移动直到其中一根指针到达边界为止），相向（两个指针从两边出发一起向中间移动直到两个指针相遇）
+    基础知识：常见双指针算法分为三类，同向（即两个指针都相同一个方向移动），背向（两个指针从相同或者相邻的位置出发，背向移动直到其中一根指针到达边界为止），相向（两个指针从两边出发一起向中间移动直到两个指针相遇）
 
 #### Two Array同向双指针
 
@@ -306,10 +296,8 @@ We binary search the final result.
 - [75. https://leetcode.com/problems/sort-colors/]
 
 #### 同向双指针(Sliding Window)
-
-Longest则尽可能move right pointer，until invalid
-
-Shortest则尽可能move left pointer，while valid
+    Longest则尽可能move right pointer，until invalid
+    Shortest则尽可能move left pointer，while valid
 
 - [283. https://leetcode.com/problems/move-zeroes/]
 - [**3. https://leetcode.com/problems/longest-substring-without-repeating-characters/**] 
@@ -323,7 +311,7 @@ Shortest则尽可能move left pointer，while valid
 
 
 ## 𐀴 Sorting
-Time and Space complexity of all kinds of sort
+    Time and Space complexity of all kinds of sort
 
 #### Quick Sort, Merge Sort, Bubble Sort, etc:
 - [https://leetcode.com/problems/sort-an-array/]
@@ -333,11 +321,9 @@ Time and Space complexity of all kinds of sort
 
 
 ## 𐀴 BFS
-基础知识：
+    基础知识：
     - 常见的BFS用来解决什么问题？(1) 简单图（有向无向皆可）的最短路径长度，注意是长度而不是具体的路径（2）拓扑排序 （3） 遍历一个图（或者树）
-
-    - BFS基本模板（需要记录层数或者不需要记录层数）
-
+    - BFS基本模板（需要记录层数或者不需要记录层数)
     - 多数情况下时间复杂度空间复杂度都是O（N+M），N为节点个数，M为边的个数
 
 #### 基于图的BFS：（一般需要一个set来记录访问过的节点）
@@ -372,21 +358,22 @@ Time and Space complexity of all kinds of sort
 ###### Hard
 - [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
+
 ## 𐀴 DFS-Backtracking
 
-- [**46. permutations**](https://leetcode.com/problems/permutations/)
+### 基于图的DFS/Backtracking: 
+    •   和BFS一样一般需要一个set来记录访问过的节点，避免重复访问造成死循环; 
+    •   Word XXX 系列面试中非常常见，例如word break，word ladder，word pattern，word search。
+    •   Backtrack基本逻辑：
+    Define base case
+    For each possible direction, check valid
+    append
+    next level traverse
+    pop
+
 - [**22. generate-parentheses**](https://leetcode.com/problems/generate-parentheses/)
 - [**93. restore-ip-addresses**](https://leetcode.com/problems/restore-ip-addresses/)
-- [**78. subsets**](https://leetcode.com/problems/subsets/)
-- [**17. letter-combinations-of-a-phone-number**](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [79. word-search](https://leetcode.com/problems/word-search/)
-- [90. subsets-ii](https://leetcode.com/problems/subsets-ii/)
-- [**39. combination-sum**](https://leetcode.com/problems/combination-sum/)
-- [**77. combinations**](https://leetcode.com/problems/combinations/)
-- [**40. combination-sum-ii**](https://leetcode.com/problems/combination-sum-ii/)
-- [31. next-permutation](https://leetcode.com/problems/next-permutation/)
-- [47. permutations-ii](https://leetcode.com/problems/permutations-ii/)
-- [842. split-array-into-fibonacci-sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)
 
 ###### Hard
 
@@ -397,6 +384,29 @@ Time and Space complexity of all kinds of sort
 - [**212. word-search-ii**](https://leetcode.com/problems/word-search-ii/)
 - [126. word-ladder-ii](https://leetcode.com/problems/word-ladder-ii/)
 - [1659. maximize-grid-happiness](https://leetcode.com/problems/maximize-grid-happiness/)
+
+### 基于排列组合的DFS
+    其实与图类DFS方法一致，但是排列组合的特征更明显
+    •   去重：sort, 在每一层recursion检查当前num是否和之前一样，且至少为当前层第二位num
+    e.g. [1, 2, 2] -> [1] [1, 2] instead of [1] [1, 2] [1, 2, 2]
+
+- [**46. permutations**](https://leetcode.com/problems/permutations/)
+- [**78. subsets**](https://leetcode.com/problems/subsets/)
+- [**17. letter-combinations-of-a-phone-number**](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [90. subsets-ii](https://leetcode.com/problems/subsets-ii/)
+- [**39. combination-sum**](https://leetcode.com/problems/combination-sum/)
+- [**77. combinations**](https://leetcode.com/problems/combinations/)
+- [**40. combination-sum-ii**](https://leetcode.com/problems/combination-sum-ii/)
+- [31. next-permutation](https://leetcode.com/problems/next-permutation/)
+- [47. permutations-ii](https://leetcode.com/problems/permutations-ii/)
+- [842. split-array-into-fibonacci-sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)
+
+### 记忆化搜索（DFS + Memoization Search)
+
+    算是动态规划的一种，递归每次返回时同时记录下已访问过的节点特征，避免重复访问同一个节点，可以有效的把指数级别的DFS时间复杂度降为多项式级别; 注意这一类的DFS必须在最后有返回值，不可以用排列组合类型的DFS方法写; for循环的dp题目都可以用记忆化搜索的方式写，但是不是所有的记忆化搜索题目都可以用for循环的dp方式写。
+    •   当状态转移的拓扑顺序不明显或者边界情况比较难处理时，建议采用 记忆化搜索，也就是 DFS + Memo。
+    •   如果转移的拓扑顺序非常明显，建议采用 递推 的方式，因为这样可以加快运行速度，且不容易出现栈溢出等问题。
+
 
 
 ## 𐀴 Math
@@ -478,7 +488,7 @@ Time and Space complexity of all kinds of sort
 - [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 
 ## 前缀 - 匹配 (Matching)
-dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个字符的状态
+    dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个字符的状态
 
 - [72. edit-distance](https://leetcode.com/problems/edit-distance/)
 - [**1143. longest-common-subsequence**](https://leetcode.com/problems/longest-common-subsequence/)
@@ -486,16 +496,15 @@ dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个�
 
 ## 前缀 - 划分 (partition)
 
-指定划分部分：dp[i][j]表示前i个字符划分为j个部分的最优值
-
-未指定划分部分： dp[i]表示前i个字符划分为若干个部分的最优值
+    指定划分部分：dp[i][j]表示前i个字符划分为j个部分的最优值
+    未指定划分部分： dp[i]表示前i个字符划分为若干个部分的最优值
 
 - [**139. word-break**](https://leetcode.com/problems/word-break/)
 - [**91. decode-ways**](https://leetcode.com/problems/decode-ways/)
 
 ## 区间 (devide-and-conquer)
-大的subarray/substring依赖于小的subarray/substring 
-dp[i][j] = max/min/sum/or(dp[i][j]之内更小的若干区间）
+    大的subarray/substring依赖于小的subarray/substring 
+    dp[i][j] = max/min/sum/or(dp[i][j]之内更小的若干区间）
 
 - [312. burst-ballons](https://leetcode.com/problems/burst-balloons/)
 - [**5. longest-palindromic-substring**](https://leetcode.com/problems/longest-palindromic-substring/)
