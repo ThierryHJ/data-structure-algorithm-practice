@@ -38,7 +38,7 @@ Algorithm
     
 
 ## 𐀴 Single-Linked-List
-Tips1: 使用dummy node指向head可以保留最原始的head reference
+* 使用dummy node指向head可以保留最原始的head reference
 
 #### 使用linked list的特性遍历
 - [2. https://leetcode.com/problems/add-two-numbers/]
@@ -79,7 +79,7 @@ Tips1: 使用dummy node指向head可以保留最原始的head reference
 
 
 ## 𐀴 Stack
-栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
+* 栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
 
 #### 正常类型:利用Stack结构或特性
 - [20.https://leetcode.com/problems/valid-parentheses]
@@ -122,7 +122,9 @@ Tips1: 使用dummy node指向head可以保留最原始的head reference
 Adding to/removing from the heap (or priority queue) only takes O(logk) time when the size of the heap is capped at k elements.
 
 Heap主要的题型有
+
 •   找第k大或第k小的元素
+
 •   找前k个无序元素
 
 
