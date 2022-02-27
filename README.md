@@ -82,21 +82,43 @@
 
 ## 𐀴 Linked-List
 #### Single Linked List：
+Tips1: 使用dummy node指向head可以保留最原始的head reference
 
-###### Easy：
+使用linked list的特性遍历
+- [2. https://leetcode.com/problems/add-two-numbers/]
 
+使用linked list的特性reference node
+- [138. https://leetcode.com/problems/copy-list-with-random-pointer/]
+
+Reverse
 - [206. reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)
-- [141. linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
-- [83. remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
-- [234. palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
+
+Remove
 - [203. remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/)
 - [237. delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
-- [876. middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
 
-###### Medium
+Two Pointers/Multiple Pointers with Linked List
+- [876. middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [19. https://leetcode.com/problems/remove-nth-node-from-end-of-list/]
-- [61. https://leetcode-cn.com/problems/rotate-list/]
+- [21. merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [23. merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+hash map/list 存储linked list记录
+- [141. linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [83. remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [148. https://leetcode.com/problems/sort-list/]
+- [160. intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+结合了多种基础操作
+- [234. palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
+- [61. https://leetcode-cn.com/problems/rotate-list/]
+- [328. https://leetcode.com/problems/odd-even-linked-list/] (双指针以同样速度前进，最后拼接)
+- [25. https://leetcode.com/problems/reverse-nodes-in-k-group/solution/]
+
+#### Doubly Linked List
+- [146. https://leetcode.com/problems/lru-cache/]
+- [460. https://leetcode.com/problems/lfu-cache/]
+- [426. https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/]
 
 #### Two Linked List：
 
