@@ -115,7 +115,7 @@
 
 - [23. merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-## Stack
+## 𐀴 Stack
 栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
 
 #### 正常类型:利用Stack结构或特性
