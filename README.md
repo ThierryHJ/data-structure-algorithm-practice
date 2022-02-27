@@ -41,7 +41,7 @@ Algorithm
 * 使用dummy node指向head可以保留最原始的head reference
 
 #### 使用linked list的特性遍历
-- [2. https://leetcode.com/problems/add-two-numbers/]
+[2. https://leetcode.com/problems/add-two-numbers/]
 
 #### 使用linked list的特性reference node
 - [138. https://leetcode.com/problems/copy-list-with-random-pointer/]
@@ -50,8 +50,8 @@ Algorithm
 - [206. https://leetcode.com/problems/reverse-linked-list/]
 
 #### Remove
-- [203. https://leetcode.com/problems/remove-linked-list-elements/]
-- [237. https://leetcode.com/problems/delete-node-in-a-linked-list/]
+[203. https://leetcode.com/problems/remove-linked-list-elements/]
+[237. https://leetcode.com/problems/delete-node-in-a-linked-list/]
 
 #### Two Pointers/Multiple Pointers with Linked List
 - [876. https://leetcode.com/problems/middle-of-the-linked-list/]
