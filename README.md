@@ -37,59 +37,58 @@ Algorithm
     使用dummy node指向head可以保留最原始的head reference
 
 ### 使用linked list的特性遍历
-- [2. https://leetcode.com/problems/add-two-numbers/]
+- [2.add-two-numbers](https://leetcode.com/problems/add-two-numbers/)
 
 ### 使用linked list的特性reference node
-- [138. https://leetcode.com/problems/copy-list-with-random-pointer/]
+- [138.copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 ### Reverse
-- [206. https://leetcode.com/problems/reverse-linked-list/]
+- [206.reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)
 
 ### Remove
-- [203. https://leetcode.com/problems/remove-linked-list-elements/]
-- [237. https://leetcode.com/problems/delete-node-in-a-linked-list/]
+- [203.remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/)
+- [237.delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 ### Two Pointers/Multiple Pointers with Linked List
-- [876. https://leetcode.com/problems/middle-of-the-linked-list/]
-- [19. https://leetcode.com/problems/remove-nth-node-from-end-of-list/]
-- [21. https://leetcode.com/problems/merge-two-sorted-lists/]
-- [23. https://leetcode.com/problems/merge-k-sorted-lists/]
+- [876.middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
+- [19.remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [21.merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [23.merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ### hash map/list 存储linked list记录
-- [141. linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
-- [83. remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
-- [148. https://leetcode.com/problems/sort-list/]
-- [160. intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+- [141.linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [83.remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [148.sort-list](https://leetcode.com/problems/sort-list/)
+- [160.intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 ### 结合了多种基础操作
-- [234. https://leetcode.com/problems/palindrome-linked-list/]
-- [61. https://leetcode-cn.com/problems/rotate-list/]
-- [328. https://leetcode.com/problems/odd-even-linked-list/] (双指针以同样速度前进，最后拼接)
-- [25. https://leetcode.com/problems/reverse-nodes-in-k-group/solution/]
+- [234.palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
+- [61.rotate-list](https://leetcode-cn.com/problems/rotate-list/)
+- [328.odd-even-linked-list(https://leetcode.com/problems/odd-even-linked-list/) (双指针以同样速度前进，最后拼接)
+- [25.reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/solution/)
 
 
 ## 𐀴 Doubly-Linked-List
-- [146. https://leetcode.com/problems/lru-cache/]
-- [460. https://leetcode.com/problems/lfu-cache/]
-- [426. https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/]
+- [146.lru-cache](https://leetcode.com/problems/lru-cache/)
+- [460.lfu-cache](https://leetcode.com/problems/lfu-cache/)
+- [426.convert-binary-search-tree-to-sorted-doubly-linked-list](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
 
 
 ## 𐀴 Stack
     栈是一种后进先出（LIFO）的数据结构，只能在一端（栈顶）插入和删除元素，而python中的列表的append()方法对应的就是向栈顶添加元素，列表的pop()方法对应的就是弹出栈顶元素，因此，python中的列表可以作为栈这种数据结构。
 
 #### 正常类型:利用Stack结构或特性
-- [20.https://leetcode.com/problems/valid-parentheses]
-- [1047. https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
-- [735. https://leetcode.com/problems/asteroid-collision/]
-- [1190. https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/]
+- [20.valid-parentheses](https://leetcode.com/problems/valid-parentheses)
+- [1047.remove-all-adjacent-duplicates-in-string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+- [735.asteroid-collision](https://leetcode.com/problems/asteroid-collision/)
+- [1190.reverse-substrings-between-each-pair-of-parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
 
 #### Stack进行operation
     思路主要在于遇到 ( 与遇到 ) 分别该如何操作。一般遇到（ 前做一系列操作，遇到（ 时append to stack，遇到 ）时pop from stack
 
-- [394. https://leetcode.com/problems/decode-string/]
-- [227. https://leetcode.com/problems/basic-calculator-ii/]
-- [224. https://leetcode.com/problems/basic-calculator/]
-- [726. https://leetcode.com/problems/number-of-atoms/]
+- [394.decode-string](https://leetcode.com/problems/decode-string/)
+- [227.basic-calculator-ii](https://leetcode.com/problems/basic-calculator-ii/)
+- [224.basic-calculator](https://leetcode.com/problems/basic-calculator/)
 
 
 ## 𐀴 Monotone-Stack:
@@ -107,10 +106,9 @@ Algorithm
 
 ###### Hard
 
-- [**42. trapping-rain-water**](https://leetcode.com/problems/trapping-rain-water/)
-- [**84. largest-rectangle-in-histogram**](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [42. trapping-rain-water](https://leetcode.com/problems/trapping-rain-water/)
+- [84. largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [85. maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/)
-- [321. create-maximum-number](https://leetcode.com/problems/create-maximum-number/)
 - [239. sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum/solution/)
 
 
@@ -124,16 +122,16 @@ Algorithm
 
 
 #### 找第k大或第k小的元素
-- [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
-- [378. https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/]
+- [215.kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [378.kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 #### 找前k个无序元素
-- [629. https://leetcode.com/problems/top-k-frequent-words/]
-- [973. https://leetcode.com/problems/k-closest-points-to-origin/]
-- [347. https://leetcode.com/problems/top-k-frequent-elements/]
+- [629.top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
+- [973.k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+- [347.top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
 #### 利用min heap/max heap特性
-- [295.https://leetcode.com/problems/find-median-from-data-stream/]
+- [295.find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
 
 
@@ -146,7 +144,6 @@ Algorithm
 - [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS)
 - [589. n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) (DFS)
 - [144. binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (DFS)
-- [590. n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)
 - [102. binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (BFS)
 - [103. binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (BFS)
 - [107. binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) 
@@ -156,14 +153,10 @@ Algorithm
 
 - [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [105. construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-- [106. construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [114. flatten-binary-tree-to-linked-list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
-- [1008. construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
-
 
 ### Path | Depth | Inverse | Others with Devide and Conquer
     树的其他问题一般都由Devide and Conquer解决
-
     正常divide and conquer思路：在递归的每一层，node需要做什么，左子树需要做什么，右子树需要做什么
 
 ###### Easy
@@ -186,10 +179,9 @@ Algorithm
 - [662. maximum-width-of-binary-tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 - [199. binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view/)
 - [116. populating-next-right-pointers-in-each-node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-- [515. find-largest-value-in-each-tree-row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)
+
 
 ###### Hard
-
 - [124. binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [297. serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
@@ -203,14 +195,14 @@ Algorithm
 
     BST的中序遍历
 
-- [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [270. closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value/)
 - [98. validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [96. unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees/)
-- [95. unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 - [173. binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 - [230. kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [99. recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/)
+- [1008. construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+- [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
 ## 𐀴 Trie
     基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
@@ -241,7 +233,7 @@ Algorithm
 
     bisect.bisect_left(array, num) 可以查找第一个大于等于num的值
 
-### 显示二分法
+### 显式二分法
     while start + 1 < end: mid = (start +_end) // 2
         - if looking for leftmost position: if array[mid] >= target: end = mid; else: start = mid
         - if looking for rightmost position:  if array[mid] <= target: start = mid; else: end = mid
@@ -300,7 +292,7 @@ Algorithm
     Shortest则尽可能move left pointer，while valid
 
 - [283. https://leetcode.com/problems/move-zeroes/]
-- [**3. https://leetcode.com/problems/longest-substring-without-repeating-characters/**] 
+- [3. https://leetcode.com/problems/longest-substring-without-repeating-characters/] 
 - [340. https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/]
 - [424. https://leetcode.com/problems/longest-repeating-character-replacement/]
 - [560. https://leetcode.com/problems/subarray-sum-equals-k/] (optimized with prefix-sum)
@@ -335,7 +327,6 @@ Algorithm
 - [**785. is-graph-bipartite**](https://leetcode.com/problems/is-graph-bipartite/)
 - [**994. rotting-oranges**](https://leetcode.com/problems/rotting-oranges/)
 - [752. open-the-lock](https://leetcode.com/problems/open-the-lock/)
-- [1162. as-far-from-land-as-possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
 - [**1197. minimum-knight-moves**](https://leetcode.com/problems/minimum-knight-moves/)
 - [529. minesweeper](https://leetcode.com/problems/minesweeper/)
 - [**547. number-of-provinces**](https://leetcode.com/problems/number-of-provinces/)
@@ -346,7 +337,6 @@ Algorithm
 - [815. bus-routes](https://leetcode.com/problems/bus-routes/)
 - [127. word-ladder](https://leetcode.com/problems/word-ladder/)
 - [1293. shortest-path-in-a-grid-with-obstacles-elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
-- [773. sliding-puzzle](https://leetcode.com/problems/sliding-puzzle/)
 - [827. making-a-large-island](https://leetcode.com/problems/making-a-large-island/)
 
 #### Topological Sort
@@ -371,8 +361,8 @@ Algorithm
     next level traverse
     pop
 
-- [**22. generate-parentheses**](https://leetcode.com/problems/generate-parentheses/)
-- [**93. restore-ip-addresses**](https://leetcode.com/problems/restore-ip-addresses/)
+- [22. generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [93. restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses/)
 - [79. word-search](https://leetcode.com/problems/word-search/)
 
 ###### Hard
