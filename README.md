@@ -253,6 +253,11 @@ Algorithm
 - [315. https://leetcode.com/problems/count-of-smaller-numbers-after-self/]
 - [154. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/] (variant of 153)
 
+
+        search space reduction: usually when row or column is sorted whereas another is not
+- [1428.leftmost-column-with-at-least-a-one](https://leetcode.com/problems/leftmost-column-with-at-least-a-one)
+- [240.search-a-2d-matrix-ii](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
 ### 隐式二分法
 - [69. https://leetcode.com/problems/sqrtx/] (search space reduction)
 - [540.https://leetcode.com/problems/single-element-in-a-sorted-array/] (search for an element has different pattern with others)
