@@ -4,6 +4,7 @@
 Data Structure
 - [𐀴 Single Linked List](#𐀴-Single-Linked-List)
 - [𐀴 Doubly Linked List](#𐀴-Doubly-Linked-List)
+- [𐀴 Hash Map/Set](#𐀴-Hash-Map)
 - [𐀴 Stack](#𐀴-Stack)
 - [𐀴 Monotone Stack](#𐀴-Monotone-Stack)
 - [𐀴 Heap](#𐀴-Heap)
@@ -17,20 +18,34 @@ Data Structure
 
 Algorithm
 - [𐀴 Binary Search](#𐀴-Binary-Search)
+    - Explicit
+    - Implicit
 - [𐀴 Two Pointers](#𐀴-Two-Pointers)
-    - Two Arrays Same Direction
+    - One/Two Arrays Same Direction
     - One Array Opposite Direction
-    - One Array Same Direction
+    - Sliding Window
 - [𐀴 Sorting](#𐀴-Sorting)
+    - Quick Sort, Merge Sort, Insertion Sort
+    - Indexing Sort
+- [𐀴 Prefix Sum](#𐀴-Prefix-Sum)
 - [𐀴 BFS](#𐀴-BFS)
+    - Graph
     - Topological Sort 
 - [𐀴 DFS/Backtracking](#𐀴-DFS-Backtracking)
+    - Graph
+    - Permutations & Combination
+    - Memorization
 - [𐀴 Math](#𐀴-Math)
     - Randomized
-    - Geometry
     - Simulation
+- [𐀴 Greedy]
 - [𐀴 Union Find](#𐀴-Union-find)
 - [𐀴 Dynamic Programming](#𐀴-Dynamic-Programming)
+    - Coordinate (1D & 2D)
+    - Prefix Matching
+    - Partition
+    - Devide and Conquer
+    - Knapsack (0-1 & unbounded)
     
 
 ## 𐀴 Single-Linked-List
@@ -42,8 +57,9 @@ Algorithm
 ### 使用linked list的特性reference node
 - [138.copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
-### Reverse
+### Reverse & Swap
 - [206.reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)
+- [24.swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/])
 
 ### Remove
 - [203.remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/)
@@ -53,7 +69,7 @@ Algorithm
 - [876.middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [19.remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [21.merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [23.merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [23.merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) (heap + k pointers)
 
 ### hash map/list 存储linked list记录
 - [141.linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
@@ -65,6 +81,10 @@ Algorithm
 - [234.palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
 - [61.rotate-list](https://leetcode-cn.com/problems/rotate-list/)
 - [328.odd-even-linked-list(https://leetcode.com/problems/odd-even-linked-list/) (双指针以同样速度前进，最后拼接)
+- [92.reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/)（快慢指针 + reverse）
+
+###### hard
+     for each group, disconnect, then reverse, and reconnect
 - [25.reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/solution/)
 
 
@@ -72,6 +92,20 @@ Algorithm
 - [146.lru-cache](https://leetcode.com/problems/lru-cache/)
 - [460.lfu-cache](https://leetcode.com/problems/lfu-cache/)
 - [426.convert-binary-search-tree-to-sorted-doubly-linked-list](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
+
+
+## 𐀴 Hash-Map
+- [706.design-hashmap](https://leetcode.com/problems/design-hashmap/)
+- [1.two-sum](https://leetcode.com/problems/two-sum/) (use hash map to record previous record)
+- [350.intersection-of-two-arrays-ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+- [128.longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [49.group-anagrams](https://leetcode.com/problems/group-anagrams/) (use tuple as key)
+- [380.insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1/) (store list index as value so we could access the location in the list)
+- [348.design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe/)(use hash map to record a certain state)
+- [36.valid-sudoku](https://leetcode.com/problems/valid-sudoku/)
+- [1146.snapshot-array](https://leetcode.com/problems/snapshot-array/)
+- [146.lru-cache](https://leetcode.com/problems/lru-cache/)(OrderedDictionary)
+- [460.lfu-cache](https://leetcode.com/problems/lfu-cache/) (Hard)
 
 
 ## 𐀴 Stack
@@ -138,7 +172,8 @@ Algorithm
 ## 𐀴 Tree
 
 ### Traverse
-    树一般有两种traverse方式，一种为DFS，另一种为BFS。一般需要level信息的时候可用BFS。
+    - 树一般有两种traverse方式，一种为DFS，另一种为BFS。一般需要level信息的时候可用BFS。
+    - 树也可以用iteration traverse
 
 - [145. binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 - [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS)
@@ -204,6 +239,7 @@ Algorithm
 - [1008. construct-binary-search-tree-from-preorder-traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 - [108. convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
+
 ## 𐀴 Trie
     基础知识：（https://zh.wikipedia.org/wiki/Trie); 多数情况下可以通过用一个set来记录所有单词的prefix来替代，时间复杂度不变，但空间复杂度略高
 
@@ -224,8 +260,9 @@ Algorithm
 
 ## 𐀴 Data-Structure-Design
 
-- [146. lru-cache](https://leetcode.com/problems/lru-cache/)
-- [380. insert-delete-getrandom-O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+- [146. lru-cache](https://leetcode.com/problems/lru-cache/) (OrderedDict)
+- [380. insert-delete-getrandom-O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) (hash map + list)
+- [359. logger-rate-limiter](https://leetcode.com/problems/logger-rate-limiter/) (hash map)
 
 
 ## 𐀴 Binary-Search
@@ -238,21 +275,20 @@ Algorithm
         - if looking for leftmost position: if array[mid] >= target: end = mid; else: start = mid
         - if looking for rightmost position:  if array[mid] <= target: start = mid; else: end = mid
 
-- [278. https://leetcode.com/problems/first-bad-version/]
-- [852. https://leetcode.com/problems/peak-index-in-a-mountain-array/]
-- [34. https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/]
-- [74. https://leetcode.com/problems/search-a-2d-matrix/] 
-- [153. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/] (find the fisrt rotated idx, then search either side)
-- [162. https://leetcode.com/problems/find-peak-element/] 
-- [658. https://leetcode.com/problems/find-k-closest-elements/] (binary search + two pointers)
-- [528. https://leetcode.com/problems/random-pick-with-weight/] (binary search + prefix sum)
+- [278.first-bad-version](https://leetcode.com/problems/first-bad-version/)
+- [33.search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [34.find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [74.search-a-2d-matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [153.find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (find the fisrt rotated idx, then search either side)
+- [162.find-peak-element](https://leetcode.com/problems/find-peak-element/)
+- [658.find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) (binary search + two pointers)
+- [528.random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight/) (binary search + prefix sum)
+- [1060.Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/) (need transformation into binary search)
 
 ###### Hard:
-- [4. https://leetcode.com/problems/median-of-two-sorted-arrays/]
-- [302. https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/]
-- [315. https://leetcode.com/problems/count-of-smaller-numbers-after-self/]
-- [154. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/] (variant of 153)
-
+- [4.median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (hard, advanced comparison and search)
+- [302.smallest-rectangle-enclosing-black-pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
+- [154.find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) (variant of 153)
 
         search space reduction: usually when row or column is sorted whereas another is not
 - [1428.leftmost-column-with-at-least-a-one](https://leetcode.com/problems/leftmost-column-with-at-least-a-one)
@@ -261,6 +297,7 @@ Algorithm
 ### 隐式二分法
 - [69. https://leetcode.com/problems/sqrtx/] (search space reduction)
 - [540.https://leetcode.com/problems/single-element-in-a-sorted-array/] (search for an element has different pattern with others)
+- [1062.longest-repeating-substring](https://leetcode.com/problems/longest-repeating-substring/) (search for a True/False boundary)
 
 #### Find the value in a bounding range
     Given the number of bags, return the minimum capacity of each bag, so that we can put items one by one into all bags.
@@ -269,11 +306,11 @@ Algorithm
         - The left bound is max(A),
         - The right bound is sum(A).
 
-- [1891. https://leetcode.com/problems/cutting-ribbons/]
-- [410.https://leetcode.com/problems/split-array-largest-sum/]
-- [1231. https://leetcode.com/problems/divide-chocolate/]
-- [875.https://leetcode.com/problems/koko-eating-bananas/]
-- [1011.https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/]
+- [1891.cutting-ribbons](https://leetcode.com/problems/cutting-ribbons/)
+- [410.split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum/) (hard)
+- [1231.divide-chocolate](https://leetcode.com/problems/divide-chocolate/) (hard)
+- [875.koko-eating-bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [1011.capacity-to-ship-packages-within-d-days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
 
 
@@ -310,12 +347,25 @@ Algorithm
 ## 𐀴 Sorting
     Time and Space complexity of all kinds of sort
 
-#### Quick Sort, Merge Sort, Bubble Sort, etc:
+#### Quick Sort, Merge Sort, Bubble Sort, etc
 - [https://leetcode.com/problems/sort-an-array/]
 
-#### Quick Select：
-- [215. https://leetcode.com/problems/kth-largest-element-in-an-array/]
+#### Quick Select
+- [215.kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
+#### Indexing Sort
+- [41.first-missing-positive](https://leetcode.com/problems/first-missing-positive/)(hard, need to take care of swap condition)
+
+
+## 𐀴 Prefix-Sum
+     - 基础知识：前缀和本质上是在一个list当中，用O（N）的时间提前算好从第0个数字到第i个数字之和，在后续使用中可以在O（1）时间内计算出第i到第j个数字之和，一般很少单独作为一道题出现，而是很多题目中的用到的一个小技巧
+     - one pattern of prefix sum is that it utilizes subarray information
+
+- [560.subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k/)(use hash map to store prefix sum)
+- [523.continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum/) (a variation of 560, using modulo math)
+- [315.count-of-smaller-numbers-after-self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)(hard, use prefix sum to record count)
+- [238.product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self/)(prefix product and postfix product)
+- [1423.maximum-points-you-can-obtain-from-cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)(prefix sum + two pointers)
 
 ## 𐀴 BFS
     基础知识：
@@ -404,8 +454,10 @@ Algorithm
 
 - [509.fibonacci-number](https://leetcode.com/problems/fibonacci-number/)
 - [139.word-break](https://leetcode.com/problems/word-break/)
-- [241.different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
 - [276.paint-fence](https://leetcode.com/problems/paint-fence/)
+
+        DFS involving expression, such as 679.24 Game
+- [241.different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
 
 ###### Hard
 - [140.word-break-ii](https://leetcode.com/problems/word-break-ii/)
@@ -428,10 +480,7 @@ Algorithm
 
 - [149. max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line/)
 
-
 #### Randomized
-
-###### Medium
 
 - [528. random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight/)
 - [**470. implement-rand10-using-rand7**](https://leetcode.com/problems/implement-rand10-using-rand7/)
