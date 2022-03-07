@@ -176,9 +176,9 @@ Algorithm
     - 树也可以用iteration traverse
 
 - [145. binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-- [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS)
+- [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS/Iterative)
 - [589. n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) (DFS)
-- [144. binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (DFS)
+- [144. binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (DFS/Iterative)
 - [102. binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (BFS)
 - [103. binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (BFS)
 - [107. binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) 
@@ -448,13 +448,14 @@ Algorithm
 
 ### 记忆化搜索（DFS + Memoization Search)
 
-    算是动态规划的一种，递归每次返回时同时记录下已访问过的节点特征，避免重复访问同一个节点，可以有效的把指数级别的DFS时间复杂度降为多项式级别; 注意这一类的DFS必须在最后有返回值，不可以用排列组合类型的DFS方法写; for循环的dp题目都可以用记忆化搜索的方式写，但是不是所有的记忆化搜索题目都可以用for循环的dp方式写。
+    算是动态规划的一种，递归每次返回时同时记录下已访问过的节点特征，避免重复访问同一个节点，可以有效的把指数级别的DFS时间复杂度降为多项式级别; 
+    注意这一类的DFS必须在最后有返回值，不可以用排列组合类型的DFS方法写; for循环的dp题目都可以用记忆化搜索的方式写，但是不是所有的记忆化搜索题目都可以用for循环的dp方式写。
     •   当状态转移的拓扑顺序不明显或者边界情况比较难处理时，建议采用 记忆化搜索，也就是 DFS + Memo。
     •   如果转移的拓扑顺序非常明显，建议采用 递推 的方式，因为这样可以加快运行速度，且不容易出现栈溢出等问题。
-
 - [509.fibonacci-number](https://leetcode.com/problems/fibonacci-number/)
 - [139.word-break](https://leetcode.com/problems/word-break/)
 - [276.paint-fence](https://leetcode.com/problems/paint-fence/)
+- [1048.longest-string-chain](https://leetcode.com/problems/longest-string-chain/)
 
         DFS involving expression, such as 679.24 Game
 - [241.different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
@@ -520,30 +521,36 @@ Algorithm
 
 ## 坐标 (Coordinate)
 
-- [**70.climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)
-- [**53.maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)
-- [**121. best-time-to-buy-and-sell-stock**](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+
+- [**70.climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)(state: total ways at each step)
+- [**53.maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)(state: largest current subarray sum)
+- [**121. best-time-to-buy-and-sell-stock**](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)(state1: minimum_cost state2: maximum_profit)
 - [**746.min-cost-climbing-stairs**](https://leetcode.com/problems/min-cost-climbing-stairs/)
-- [**120. Triangle**](https://leetcode.com/problems/triangle/)
-- [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)
+- [**279. perfect-squares**](https://leetcode.com/problems/perfect-squares/)(state: minimum ways to reach current num; transition: for each possible square number, calculate ways)
 - [**198. house-robber**](https://leetcode.com/problems/house-robber/)
-- [1277. count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 - [**300. longest-increasing-subsequence**](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [368. largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset/)
 - [152. maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [279. perfect-squares](https://leetcode.com/problems/perfect-squares/)
 
 ###### Hard
 - [354. russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 - [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 
+        2D board state transition
+
+- [62.unique-paths](https://leetcode.com/problems/unique-paths/)
+- [**120. Triangle**](https://leetcode.com/problems/triangle/)(state: minimum cost at current step)
+- [221.maximal-square](https://leetcode.com/problems/maximal-square/)(a transition of square matirx in a 2D board: dp[i][j] = min(dp[i][j - 1], dp[i - 1][j]), dp[i - 1][j - 1]) + 1)
+- [1277. count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+
 ## 前缀 - 匹配 (Matching)
     dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个字符的状态
 
-- [72. edit-distance](https://leetcode.com/problems/edit-distance/)
+- [72. edit-distance](https://leetcode.com/problems/edit-distance/)(hard; need to take care of edge cases)
 - [**1143. longest-common-subsequence**](https://leetcode.com/problems/longest-common-subsequence/)
-- [44. wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
+- [44. wildcard-matching](https://leetcode.com/problems/wildcard-matching/) (hard; need to take care of * situation)
+- [10. regular-expression-matching](https://leetcode.com/problems/regular-expression-matching/]) (hard; need to take care of * situation)
 
 ## 前缀 - 划分 (partition)
 
@@ -556,7 +563,8 @@ Algorithm
 ## 区间 (devide-and-conquer)
     大的subarray/substring依赖于小的subarray/substring 
     dp[i][j] = max/min/sum/or(dp[i][j]之内更小的若干区间）
-
+     iteration可以从possible length开始（for length in range(smallest_length, len_of_string))
+    
 - [312. burst-ballons](https://leetcode.com/problems/burst-balloons/)
 - [**5. longest-palindromic-substring**](https://leetcode.com/problems/longest-palindromic-substring/)
 - [1000. minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
