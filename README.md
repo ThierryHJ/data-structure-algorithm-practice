@@ -4,6 +4,7 @@
 Data Structure
 - [𐀴 Single Linked List](#𐀴-Single-Linked-List)
 - [𐀴 Doubly Linked List](#𐀴-Doubly-Linked-List)
+- [𐀴 String](#𐀴-String)
 - [𐀴 Hash Map/Set](#𐀴-Hash-Map)
 - [𐀴 Stack](#𐀴-Stack)
 - [𐀴 Monotone Stack](#𐀴-Monotone-Stack)
@@ -61,6 +62,9 @@ Algorithm
 - [206.reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)
 - [24.swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/])
 
+### insert
+- [708.insert-into-a-sorted-circular-linked-list](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
+
 ### Remove
 - [203.remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/)
 - [237.delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
@@ -92,6 +96,30 @@ Algorithm
 - [146.lru-cache](https://leetcode.com/problems/lru-cache/)
 - [460.lfu-cache](https://leetcode.com/problems/lfu-cache/)
 - [426.convert-binary-search-tree-to-sorted-doubly-linked-list](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
+
+
+## 𐀴 String
+     String一般的题型有
+        - 和math结合找规律
+        - 和hash map结合
+        - 和two pointers结合
+        - 和其他概念结合，比如stack, merged intervals, etc
+
+#### Palindrome & Two Pointers
+- [125. ](https://leetcode.com/problems/valid-palindrome/)
+- [266. ](https://leetcode.com/problems/palindrome-permutation/)
+- [680.valid-palindrome-ii](https://leetcode.com/problems/valid-palindrome-ii/)(variation of palindrom string; two pointers)
+- [408. ](https://leetcode.com/problems/valid-word-abbreviation/)(string & two pointers; take care of edge cases)
+
+#### Hash Table or Sort
+- [249. ](https://leetcode.com/problems/group-shifted-strings/)
+- [791.](https://leetcode.com/problems/custom-sort-string/)(string & sorting & hash table)
+- [616.add-bold-tag-in-string](https://leetcode.com/problems/add-bold-tag-in-string/)(string和merged interval结合)
+
+#### 和math结合找规律
+- [415. ](https://leetcode.com/problems/add-strings/)
+- [273. ](https://leetcode.com/problems/integer-to-english-words/)(hard; take care of edge cases)
+- [65. ](https://leetcode.com/problems/valid-number/)(hard; string & math principle)
 
 
 ## 𐀴 Hash-Map
@@ -129,6 +157,16 @@ Algorithm
     基础知识：单调栈一般用于解决数组中找出每个数字的第一个大于／小于该数字的位置或者数字；
     单调队列只见过一道题需要使用；
     不论单调栈还是单调队列，单调的意思是保留在栈或者队列中的数字是单调递增或者单调递减的
+    increasing stack: 
+        - iterate elements
+            - while stack and i <= stack[-1]
+                - stack.pop(), do something
+            - append elements to stack
+    decreasing stack:
+        - iterate elements
+            - while stack and i >= stack[-1]
+                - stack.pop(), do something
+            - append elements to stack
 
 
 - [496. next-greater-element-i](https://leetcode.com/problems/next-greater-element-i/)
@@ -174,6 +212,12 @@ Algorithm
 ### Traverse
     - 树一般有两种traverse方式，一种为DFS，另一种为BFS。一般需要level信息的时候可用BFS。
     - 树也可以用iteration traverse
+        - stack = [(root, False)]
+        - while stack
+            - node, is_visit = stack.pop()
+            - continue if not node
+            - if is_visit: do something
+            - else: append in the reverse order
 
 - [145. binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 - [94. binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (DFS/Iterative)
@@ -182,6 +226,7 @@ Algorithm
 - [102. binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (BFS)
 - [103. binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (BFS)
 - [107. binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) 
+- [314. binary-tree-vertical-order-traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)(BFS with col index hash map)
 
 ### Construct
     树的构建一般需要在每层recursion创建新的node：node.val, node.left, node.right. 
@@ -228,7 +273,6 @@ Algorithm
         - while node
         - check larger or smaller，node.next
 
-    BST的中序遍历
 
 - [270. closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value/)
 - [98. validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)
@@ -263,12 +307,13 @@ Algorithm
 - [146. lru-cache](https://leetcode.com/problems/lru-cache/) (OrderedDict)
 - [380. insert-delete-getrandom-O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) (hash map + list)
 - [359. logger-rate-limiter](https://leetcode.com/problems/logger-rate-limiter/) (hash map)
-
+- [981. time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/) (binary search + hash map)
 
 ## 𐀴 Binary-Search
     基础知识：二分法是用来解法基本模板，时间复杂度logN；常见的二分法题目可以分为两大类，显式与隐式，即是否能从字面上一眼看出二分法的特点：要查找的数据是否可以分为两部分，前半部分为X，后半部分为O
 
-    bisect.bisect_left(array, num) 可以查找第一个大于等于num的值
+    bisect.bisect_left returns the leftmost place in the sorted list to insert the given element. 
+    bisect.bisect_right returns the rightmost place in the sorted list to insert the given element.
 
 ### 显式二分法
     while start + 1 < end: mid = (start +_end) // 2
@@ -313,7 +358,6 @@ Algorithm
 - [1011.capacity-to-ship-packages-within-d-days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
 
-
 ## 𐀴 Two-Pointers
     基础知识：常见双指针算法分为三类，同向（即两个指针都相同一个方向移动），背向（两个指针从相同或者相邻的位置出发，背向移动直到其中一根指针到达边界为止），相向（两个指针从两边出发一起向中间移动直到两个指针相遇）
 
@@ -353,6 +397,11 @@ Algorithm
 #### Quick Select
 - [215.kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
+#### Sort & Intervals
+- [56.merge-intervals](https://leetcode.com/problems/merge-intervals/)
+- [253.meeting-rooms-ii](https://leetcode.com/problems/meeting-rooms-ii/)
+
+
 #### Indexing Sort
 - [41.first-missing-positive](https://leetcode.com/problems/first-missing-positive/)(hard, need to take care of swap condition)
 
@@ -373,35 +422,32 @@ Algorithm
     - BFS基本模板（需要记录层数或者不需要记录层数)
     - 多数情况下时间复杂度空间复杂度都是O（N+M），N为节点个数，M为边的个数
 
-#### 基于图的BFS：（一般需要一个set来记录访问过的节点）
+#### 基于图的BFS划分connected component：（一般需要一个set来记录访问过的节点）
 - [**690. employee-importance**](https://leetcode.com/problems/employee-importance/)
 - [**200. number-of-islands**](https://leetcode.com/problems/number-of-islands/)
 - [**130. surrounded-regions**](https://leetcode.com/problems/surrounded-regions/)
 - [1319. number-of-operations-to-make-network-connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
-- [**934. shortest-bridge**](https://leetcode.com/problems/shortest-bridge/)
+- [**547. number-of-provinces**](https://leetcode.com/problems/number-of-provinces/)
 - [**785. is-graph-bipartite**](https://leetcode.com/problems/is-graph-bipartite/)
+- [721.accounts-merge](https://leetcode.com/problems/accounts-merge/)
+- [133.clone-graph](https://leetcode.com/problems/clone-graph/)
+- [827. making-a-large-island](https://leetcode.com/problems/making-a-large-island/)(hard; find all island areas first, then iterate each water cell)
+
+#### 基于BFS寻找最短路径
 - [**994. rotting-oranges**](https://leetcode.com/problems/rotting-oranges/)
 - [752. open-the-lock](https://leetcode.com/problems/open-the-lock/)
 - [**1197. minimum-knight-moves**](https://leetcode.com/problems/minimum-knight-moves/)
 - [529. minesweeper](https://leetcode.com/problems/minesweeper/)
-- [**547. number-of-provinces**](https://leetcode.com/problems/number-of-provinces/)
-- [**490. the-maze**](https://leetcode.com/problems/the-maze/)
-
-###### Hard
-
-- [815. bus-routes](https://leetcode.com/problems/bus-routes/)
-- [127. word-ladder](https://leetcode.com/problems/word-ladder/)
+- [**490. the-maze**](https://leetcode.com/problems/the-maze/)(start and destination)
+- [815. bus-routes](https://leetcode.com/problems/bus-routes/)(hard)
+- [127. word-ladder](https://leetcode.com/problems/word-ladder/)(hard; the key is how to limit the search space)
 - [1293. shortest-path-in-a-grid-with-obstacles-elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
-- [827. making-a-large-island](https://leetcode.com/problems/making-a-large-island/)
 
 #### Topological Sort
-
 - [**207. course-schedule**](https://leetcode.com/problems/course-schedule/)
 - [210. course-schedule-ii](https://leetcode.com/problems/course-schedule-ii/)
 - [**310.minimum-height-trees**](https://leetcode.com/problems/minimum-height-trees/)
-
-###### Hard
-- [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
+- [269. alien-dictionary](https://leetcode.com/problems/alien-dictionary/)(hard; use indegree to represent order, need to scan each word to define relative order)
 
 
 ## 𐀴 DFS-Backtracking
@@ -466,7 +512,7 @@ Algorithm
 - [44.wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
 
 
-## 𐀴 Math
+## 𐀴 Math & Greedy
 
 - [**204. count-primes**](https://leetcode.com/problems/count-primes/)
 - [**628. maximum-product-of-three-numbers**](https://leetcode.com/problems/maximum-product-of-three-numbers/)
@@ -476,6 +522,8 @@ Algorithm
 - [29. divide-two-integers](https://leetcode.com/problems/divide-two-integers/)
 - [**343. integer-break**](https://leetcode.com/problems/integer-break/)
 - [166. fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
+- [31. next-permutation](https://leetcode.com/problems/next-permutation/)(find the math pattern of permutation)
+- 
 
 ###### Hard
 
@@ -521,7 +569,6 @@ Algorithm
 
 ## 坐标 (Coordinate)
 
-
 - [**70.climbing-stairs**](https://leetcode.com/problems/climbing-stairs/)(state: total ways at each step)
 - [**53.maximum-subarray**](https://leetcode.com/problems/maximum-subarray/)(state: largest current subarray sum)
 - [**121. best-time-to-buy-and-sell-stock**](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)(state1: minimum_cost state2: maximum_profit)
@@ -533,16 +580,17 @@ Algorithm
 - [152. maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/)
 
 ###### Hard
+
 - [354. russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
-- [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+- [123. best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 
         2D board state transition
-
 - [62.unique-paths](https://leetcode.com/problems/unique-paths/)
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)(state: minimum cost at current step)
 - [221.maximal-square](https://leetcode.com/problems/maximal-square/)(a transition of square matirx in a 2D board: dp[i][j] = min(dp[i][j - 1], dp[i - 1][j]), dp[i - 1][j - 1]) + 1)
-- [1277. count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+- [1277.count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+- [85.maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/)(hard; a transition of rectangle in a 2D board)
 
 ## 前缀 - 匹配 (Matching)
     dp[i][j]表示第一个字符串的前i个字符与第二个字符串的前j个字符的状态
@@ -553,7 +601,6 @@ Algorithm
 - [10. regular-expression-matching](https://leetcode.com/problems/regular-expression-matching/]) (hard; need to take care of * situation)
 
 ## 前缀 - 划分 (partition)
-
     指定划分部分：dp[i][j]表示前i个字符划分为j个部分的最优值
     未指定划分部分： dp[i]表示前i个字符划分为若干个部分的最优值
 
@@ -561,26 +608,30 @@ Algorithm
 - [**91. decode-ways**](https://leetcode.com/problems/decode-ways/)
 
 ## 区间 (devide-and-conquer)
-    大的subarray/substring依赖于小的subarray/substring 
-    dp[i][j] = max/min/sum/or(dp[i][j]之内更小的若干区间）
-     iteration可以从possible length开始（for length in range(smallest_length, len_of_string))
+    - 大的subarray/substring依赖于小的subarray/substring 
+    - dp[i][j] = max/min/sum/or(dp[i][j]之内更小的若干区间）
+    - iteration可以从possible length开始（for length in range(shortest_length, longest_length))
     
-- [312. burst-ballons](https://leetcode.com/problems/burst-balloons/)
+- [312. burst-ballons](https://leetcode.com/problems/burst-balloons/)(hard; dp[i][j] represents maximum score players can get between i and j)
 - [**5. longest-palindromic-substring**](https://leetcode.com/problems/longest-palindromic-substring/)
 - [1000. minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
 
 
 ## 背包 (Knapsack)
+    - Unbounded Knapsack usually just need a 1-D array to track state because candadates could be used unlimited times
+    - 0-1 Knapsack usually need a 2-D array with dp[i][j] represents at item i, min/max/sum value you could get with j as the value
+        - e.g. dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - A[i - 1]] + V[i - 1])
 
-###### Unbounded
+
+##### Unbounded
 - [rod-cutting-problem](https://www.jiuzhang.com/problem/cutting-a-rod/)
 - [**322. coin-change**](https://leetcode.com/problems/coin-change/)
 - [518. coin-change2](https://leetcode.com/problems/coin-change-2/)
 - [**983. minimum-cost-for-tickets**](https://leetcode.com/problems/minimum-cost-for-tickets/solution/)
-- [1235.maximum-profit-in-job-scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
-###### 0-1
+##### 0-1
 - [**knapsack**](https://www.lintcode.com/problem/92/description)
+- [kacpsack-with-value](https://www.lintcode.com/problem/125/)
 - [**494.target-sum**](https://leetcode.com/problems/target-sum/)
 - [**416. partition-equal-subset-sum**](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [474. ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes/)
