@@ -501,7 +501,6 @@ Algorithm
 - [139.word-break](https://leetcode.com/problems/word-break/)
 - [276.paint-fence](https://leetcode.com/problems/paint-fence/)
 - [1048.longest-string-chain](https://leetcode.com/problems/longest-string-chain/)
-
         DFS involving expression, such as 679.24 Game
 - [241.different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
 
