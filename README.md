@@ -291,7 +291,6 @@ Algorithm
         2. for word in words; node = trie
         3. for char in word; node = node.setdefault(char, {}); at the end set the final node['#'] as word
 
-
 - [720. longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
 - [208. implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [692. top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
@@ -333,7 +332,6 @@ Algorithm
 - [4.median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (hard, advanced comparison and search)
 - [302.smallest-rectangle-enclosing-black-pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
 - [154.find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) (variant of 153)
-
         search space reduction: usually when row or column is sorted whereas another is not
 - [1428.leftmost-column-with-at-least-a-one](https://leetcode.com/problems/leftmost-column-with-at-least-a-one)
 - [240.search-a-2d-matrix-ii](https://leetcode.com/problems/search-a-2d-matrix-ii/)
