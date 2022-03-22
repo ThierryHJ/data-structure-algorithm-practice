@@ -106,20 +106,20 @@ Algorithm
         - 和其他概念结合，比如stack, merged intervals, etc
 
 #### Palindrome & Two Pointers
-- [125. ](https://leetcode.com/problems/valid-palindrome/)
-- [266. ](https://leetcode.com/problems/palindrome-permutation/)
+- [125.valid-palindrome ](https://leetcode.com/problems/valid-palindrome/)
+- [266.palindrome-permutation ](https://leetcode.com/problems/palindrome-permutation/)
 - [680.valid-palindrome-ii](https://leetcode.com/problems/valid-palindrome-ii/)(variation of palindrom string; two pointers)
-- [408. ](https://leetcode.com/problems/valid-word-abbreviation/)(string & two pointers; take care of edge cases)
+- [408.valid-word-abbreviation ](https://leetcode.com/problems/valid-word-abbreviation/)(string & two pointers; take care of edge cases)
 
 #### Hash Table or Sort
-- [249. ](https://leetcode.com/problems/group-shifted-strings/)
-- [791.](https://leetcode.com/problems/custom-sort-string/)(string & sorting & hash table)
+- [249.group-shifted-strings ](https://leetcode.com/problems/group-shifted-strings/)
+- [791.custom-sort-string](https://leetcode.com/problems/custom-sort-string/)(string & sorting & hash table)
 - [616.add-bold-tag-in-string](https://leetcode.com/problems/add-bold-tag-in-string/)(string和merged interval结合)
 
 #### 和math结合找规律
-- [415. ](https://leetcode.com/problems/add-strings/)
-- [273. ](https://leetcode.com/problems/integer-to-english-words/)(hard; take care of edge cases)
-- [65. ](https://leetcode.com/problems/valid-number/)(hard; string & math principle)
+- [415.add-strings ](https://leetcode.com/problems/add-strings/)
+- [273.integer-to-english-words ](https://leetcode.com/problems/integer-to-english-words/)(hard; take care of edge cases)
+- [65.valid-number ](https://leetcode.com/problems/valid-number/)(hard; string & math principle)
 
 
 ## 𐀴 Hash-Map
@@ -204,7 +204,6 @@ Algorithm
 
 #### 利用min heap/max heap特性
 - [295.find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
-
 
 
 ## 𐀴 Tree
@@ -584,7 +583,6 @@ Algorithm
 - [354. russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 - [123. best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
-
         2D board state transition
 - [62.unique-paths](https://leetcode.com/problems/unique-paths/)
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)(state: minimum cost at current step)
