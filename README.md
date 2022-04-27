@@ -55,8 +55,8 @@ Algorithm
 ### Basic Operations
 - [2.add-two-numbers](https://leetcode.com/problems/add-two-numbers/) [使用linked list的特性遍历]
 - [138.copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) [使用linked list的特性reference node]
-- [206.reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/) (Reverse)
-- [24.swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/]) (Reverse & Swap)
+- [206.reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/) [Reverse]
+- [24.swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/]) [Reverse & Swap]
 - [708.insert-into-a-sorted-circular-linked-list](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) [Insert]
 - [203.remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/) [Remove]
 - [237.delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/) [Remove]
@@ -78,9 +78,7 @@ Algorithm
 - [61.rotate-list](https://leetcode-cn.com/problems/rotate-list/)
 - [328.odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list/) [双指针以同样速度前进，最后拼接]
 - [92.reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/) [快慢指针 + reverse]
-
-        for each group, disconnect, then reverse, and reconnect
-- [25.reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/solution/)
+- [25.reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/solution/) [for each group, disconnect, then reverse, and reconnect]
 
 
 ## 𐀴 Doubly-Linked-List
