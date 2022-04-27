@@ -106,20 +106,20 @@ Algorithm
         - 和其他概念结合，比如stack, merged intervals, etc
 
 #### Palindrome & Two Pointers
-- [125. ](https://leetcode.com/problems/valid-palindrome/)
-- [266. ](https://leetcode.com/problems/palindrome-permutation/)
+- [125.valid-palindrome ](https://leetcode.com/problems/valid-palindrome/)
+- [266.palindrome-permutation ](https://leetcode.com/problems/palindrome-permutation/)
 - [680.valid-palindrome-ii](https://leetcode.com/problems/valid-palindrome-ii/)(variation of palindrom string; two pointers)
-- [408. ](https://leetcode.com/problems/valid-word-abbreviation/)(string & two pointers; take care of edge cases)
+- [408.valid-word-abbreviation ](https://leetcode.com/problems/valid-word-abbreviation/)(string & two pointers; take care of edge cases)
 
 #### Hash Table or Sort
-- [249. ](https://leetcode.com/problems/group-shifted-strings/)
-- [791.](https://leetcode.com/problems/custom-sort-string/)(string & sorting & hash table)
+- [249.group-shifted-strings ](https://leetcode.com/problems/group-shifted-strings/)
+- [791.custom-sort-string](https://leetcode.com/problems/custom-sort-string/)(string & sorting & hash table)
 - [616.add-bold-tag-in-string](https://leetcode.com/problems/add-bold-tag-in-string/)(string和merged interval结合)
 
 #### 和math结合找规律
-- [415. ](https://leetcode.com/problems/add-strings/)
-- [273. ](https://leetcode.com/problems/integer-to-english-words/)(hard; take care of edge cases)
-- [65. ](https://leetcode.com/problems/valid-number/)(hard; string & math principle)
+- [415.add-strings ](https://leetcode.com/problems/add-strings/)
+- [273.integer-to-english-words ](https://leetcode.com/problems/integer-to-english-words/)(hard; take care of edge cases)
+- [65.valid-number ](https://leetcode.com/problems/valid-number/)(hard; string & math principle)
 
 
 ## 𐀴 Hash-Map
@@ -211,7 +211,6 @@ Algorithm
 - [632.smallest-range-covering-elements-from-k-lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)（hard; 结合了k sorted list的思想，同时需要更新interval，要找到维护interval的规律）
 
 
-
 ## 𐀴 Tree
 
 ### Traverse
@@ -297,7 +296,6 @@ Algorithm
         2. for word in words; node = trie
         3. for char in word; node = node.setdefault(char, {}); at the end set the final node['#'] as word
 
-
 - [720. longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
 - [208. implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [692. top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
@@ -339,7 +337,6 @@ Algorithm
 - [4.median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (hard, advanced comparison and search)
 - [302.smallest-rectangle-enclosing-black-pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
 - [154.find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) (variant of 153)
-
         search space reduction: usually when row or column is sorted whereas another is not
 - [1428.leftmost-column-with-at-least-a-one](https://leetcode.com/problems/leftmost-column-with-at-least-a-one)
 - [240.search-a-2d-matrix-ii](https://leetcode.com/problems/search-a-2d-matrix-ii/)
@@ -507,7 +504,6 @@ Algorithm
 - [139.word-break](https://leetcode.com/problems/word-break/)
 - [276.paint-fence](https://leetcode.com/problems/paint-fence/)
 - [1048.longest-string-chain](https://leetcode.com/problems/longest-string-chain/)
-
         DFS involving expression, such as 679.24 Game
 - [241.different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
 
