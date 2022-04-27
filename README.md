@@ -52,22 +52,14 @@ Algorithm
 ## 𐀴 Single-Linked-List
     使用dummy node指向head可以保留最原始的head reference
 
-### 使用linked list的特性遍历
-- [2.add-two-numbers](https://leetcode.com/problems/add-two-numbers/)
-
-### 使用linked list的特性reference node
-- [138.copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
-
-### Reverse & Swap
-- [206.reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)
-- [24.swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/])
-
-### insert
-- [708.insert-into-a-sorted-circular-linked-list](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
-
-### Remove
-- [203.remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/)
-- [237.delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+### Basic Operations
+- [2.add-two-numbers](https://leetcode.com/problems/add-two-numbers/) [使用linked list的特性遍历]
+- [138.copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) [使用linked list的特性reference node]
+- [206.reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/) (Reverse)
+- [24.swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/]) (Reverse & Swap)
+- [708.insert-into-a-sorted-circular-linked-list](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) [Insert]
+- [203.remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/) [Remove]
+- [237.delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/) [Remove]
 
 ### Two Pointers/Multiple Pointers with Linked List
 - [876.middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
@@ -75,7 +67,7 @@ Algorithm
 - [21.merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [23.merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) [heap + k pointers]
 
-### hash map/list 存储linked list记录
+### Hash map/list 存储linked list记录
 - [141.linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [83.remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [148.sort-list](https://leetcode.com/problems/sort-list/)
@@ -87,8 +79,7 @@ Algorithm
 - [328.odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list/) [双指针以同样速度前进，最后拼接]
 - [92.reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/) [快慢指针 + reverse]
 
-###### hard
-     for each group, disconnect, then reverse, and reconnect
+        for each group, disconnect, then reverse, and reconnect
 - [25.reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/solution/)
 
 
