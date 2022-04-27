@@ -310,7 +310,7 @@ Algorithm
 - [146. lru-cache](https://leetcode.com/problems/lru-cache/) (OrderedDict)
 - [380. insert-delete-getrandom-O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) (hash map + list)
 - [359. logger-rate-limiter](https://leetcode.com/problems/logger-rate-limiter/) (hash map)
-- [981. time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/) (binary search + hash map, use sorted timestamp as search key; similar question: 1146. snapshot-array)
+- [981. time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/) [binary search + hash map, use sorted timestamp as search key] [similar question: 1146. snapshot-array]
 
 ## 𐀴 Binary-Search
     基础知识：二分法是用来解法基本模板，时间复杂度logN；常见的二分法题目可以分为两大类，显式与隐式，即是否能从字面上一眼看出二分法的特点：要查找的数据是否可以分为两部分，前半部分为X，后半部分为O
