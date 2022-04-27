@@ -73,7 +73,7 @@ Algorithm
 - [876.middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [19.remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [21.merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [23.merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) (heap + k pointers)
+- [23.merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) [heap + k pointers]
 
 ### hash map/list 存储linked list记录
 - [141.linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
@@ -84,8 +84,8 @@ Algorithm
 ### 结合了多种基础操作
 - [234.palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
 - [61.rotate-list](https://leetcode-cn.com/problems/rotate-list/)
-- [328.odd-even-linked-list(https://leetcode.com/problems/odd-even-linked-list/) (双指针以同样速度前进，最后拼接)
-- [92.reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/)（快慢指针 + reverse）
+- [328.odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list/) [双指针以同样速度前进，最后拼接]
+- [92.reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/)[快慢指针 + reverse]
 
 ###### hard
      for each group, disconnect, then reverse, and reconnect
@@ -175,6 +175,7 @@ Algorithm
 - [456. 132-pattern](https://leetcode.com/problems/132-pattern/)
 - [316. remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters/)
 - [1124. longest-well-performing-interval](https://leetcode.com/problems/longest-well-performing-interval/)
+- [1130. minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)(use m-stack to shrink element with multiplications; considering the min/max relation)
 
 ###### Hard
 
@@ -204,6 +205,10 @@ Algorithm
 
 #### 利用min heap/max heap特性
 - [295.find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
+
+#### merge k sorted list
+- [23.merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) (heap + k pointers)
+- [632.smallest-range-covering-elements-from-k-lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)（hard; 结合了k sorted list的思想，同时需要更新interval，要找到维护interval的规律）
 
 
 
@@ -510,6 +515,7 @@ Algorithm
 - [140.word-break-ii](https://leetcode.com/problems/word-break-ii/)
 - [329.longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 - [44.wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
+- [403.frog-jump](https://leetcode.com/problems/frog-jump/)(hard; not only need to record state at certain step, but also k at that step)
 
 
 ## 𐀴 Math & Greedy
@@ -547,8 +553,8 @@ Algorithm
 - [587. erect-the-fence](https://leetcode.com/problems/erect-the-fence/)
 - [1515. best-position-for-a-service-centre](https://leetcode.com/problems/best-position-for-a-service-centre/)
 
-#### Simulation
-- [**54.spiral-matrix**](https://leetcode.com/problems/spiral-matrix/)
+#### Linear Algebra
+- [311.sparse-matrix-multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)
 
 ## 𐀴 Union-Find
     基础知识：如果数据不是实时变化，本类问题可以用BFS或者DFS的方式遍历，
@@ -584,7 +590,6 @@ Algorithm
 - [354. russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - [32. longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 - [123. best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
-
         2D board state transition
 - [62.unique-paths](https://leetcode.com/problems/unique-paths/)
 - [**120. Triangle**](https://leetcode.com/problems/triangle/)(state: minimum cost at current step)
